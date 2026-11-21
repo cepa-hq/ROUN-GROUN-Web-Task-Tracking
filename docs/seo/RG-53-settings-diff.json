@@ -1,0 +1,176 @@
+[
+  {
+    "group": "general",
+    "key": "support_rank_math",
+    "before": null,
+    "after": "on"
+  },
+  {
+    "group": "general",
+    "key": "breadcrumbs_remove_post_title",
+    "before": null,
+    "after": "off"
+  },
+  {
+    "group": "general",
+    "key": "breadcrumbs_hide_taxonomy_name",
+    "before": null,
+    "after": "off"
+  },
+  {
+    "group": "general",
+    "key": "product_brand",
+    "before": null,
+    "after": "product_brand"
+  },
+  {
+    "group": "general",
+    "key": "breadcrumbs_home_link",
+    "before": null,
+    "after": "https://roungroun.com"
+  },
+  {
+    "group": "general",
+    "key": "rss_before_content",
+    "before": "",
+    "after": null
+  },
+  {
+    "group": "general",
+    "key": "frontend_seo_score_template",
+    "before": null,
+    "after": "circle"
+  },
+  {
+    "group": "general",
+    "key": "rss_after_content",
+    "before": "",
+    "after": null
+  },
+  {
+    "group": "general",
+    "key": "headless_support",
+    "before": null,
+    "after": "off"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_slack_enhanced_sharing",
+    "before": null,
+    "after": "off"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_link_suggestions",
+    "before": null,
+    "after": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_robots",
+    "before": null,
+    "after": [
+      "index"
+    ]
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_snippet_name",
+    "before": null,
+    "after": "%seo_title%"
+  },
+  {
+    "group": "titles",
+    "key": "tax_product_brand_add_meta_box",
+    "before": "off",
+    "after": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_ls_use_fk",
+    "before": null,
+    "after": "titles"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_title",
+    "before": null,
+    "after": "%title% %page% %sep% %sitename%"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_bulk_editing",
+    "before": null,
+    "after": "editing"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_snippet_desc",
+    "before": null,
+    "after": "%seo_description%"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_add_meta_box",
+    "before": null,
+    "after": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_advanced_robots",
+    "before": null,
+    "after": {
+      "max-snippet": "-1",
+      "max-video-preview": "-1",
+      "max-image-preview": "large"
+    }
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_description",
+    "before": null,
+    "after": "%excerpt%"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_custom_robots",
+    "before": null,
+    "after": "off"
+  },
+  {
+    "group": "titles",
+    "key": "social_url_facebook",
+    "before": null,
+    "after": "https://www.facebook.com/profile.php?id=61595907878250"
+  },
+  {
+    "group": "titles",
+    "key": "pt_product_default_snippet_name",
+    "before": "%seo_title%",
+    "after": "%title%"
+  },
+  {
+    "group": "titles",
+    "key": "social_additional_profiles",
+    "before": null,
+    "after": "https://www.instagram.com/roun.groun/"
+  },
+  {
+    "group": "titles",
+    "key": "tax_product_cat_add_meta_box",
+    "before": "off",
+    "after": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_article_type",
+    "before": null,
+    "after": "Article"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_rich_snippet",
+    "before": null,
+    "after": "off"
+  }
+]
