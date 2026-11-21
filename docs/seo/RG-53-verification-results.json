@@ -1,0 +1,344 @@
+{
+  "captured_utc": "2026-11-21T14:57:41Z",
+  "checks": 84,
+  "all_passed": true,
+  "note": "Local assertions are not Google certification. Price/stock current at audit time; no authenticated customer pages or transactions requested.",
+  "results": [
+    {
+      "check": "17 unique eligible URLs / 18 XML entries (Shop in two sitemaps)",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/contact/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/shop/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ indexable page integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/contact/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/shop/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/cart/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/checkout/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/my-account/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/wishlist/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/about/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/cancellation-request/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/return-request/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/?s=bands HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/shop/?orderby=price HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/brand/roun-groun/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/uncategorized/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/sportswear-sportsgear-activewear/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/refund_returns/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/rg-seo-audit-nonexistent-53/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "http://roungroun.com/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://www.roungroun.com/ HTML head/schema integrity",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/cart/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/checkout/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/my-account/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/wishlist/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/cancellation-request/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/return-request/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/?s=bands excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/uncategorized/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/brand/roun-groun/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product-category/sportswear-sportsgear-activewear/ excluded",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ single Product",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ factual offer/brand",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ single Product",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ factual offer/brand",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ single Product",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ factual offer/brand",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ single Product",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ factual offer/brand",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ single Product",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ factual offer/brand",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ single Product",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ factual offer/brand",
+      "passed": true
+    },
+    {
+      "check": "six products",
+      "passed": true
+    },
+    {
+      "check": "whistle accurately out of stock",
+      "passed": true
+    },
+    {
+      "check": "404 retained",
+      "passed": true
+    },
+    {
+      "check": "http://roungroun.com/ redirect retained",
+      "passed": true
+    },
+    {
+      "check": "https://www.roungroun.com/ redirect retained",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/about/ redirect retained",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/refund_returns/ redirect retained",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/wp-sitemap.xml redirect retained",
+      "passed": true
+    },
+    {
+      "check": "sorting canonical retained",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp icon reachable",
+      "passed": true
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo-32x32.webp icon reachable",
+      "passed": true
+    }
+  ]
+}
