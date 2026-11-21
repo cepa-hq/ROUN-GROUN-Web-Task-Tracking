@@ -1,0 +1,647 @@
+{
+  "captured_utc": "2026-11-21T15:32:01Z",
+  "site": "https://testarea.roungroun.com",
+  "sitemap_unique": 17,
+  "pages": [
+    {
+      "requested": "https://testarea.roungroun.com/",
+      "url": "https://testarea.roungroun.com/",
+      "status": 200,
+      "titles": [
+        "Roun Groun | Fitness, Outdoor & Everyday Gear"
+      ],
+      "description": [
+        "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "WebPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/contact/",
+      "url": "https://testarea.roungroun.com/contact/",
+      "status": 200,
+      "titles": [
+        "Contact Roun Groun | Product Help & Order Support"
+      ],
+      "description": [
+        "Contact Roun Groun for product advice, delivery updates, returns and bulk enquiries. Reach our Bengaluru team by WhatsApp, phone, email or callback request."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/contact/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/shipping-policy/",
+      "url": "https://testarea.roungroun.com/shipping-policy/",
+      "status": 200,
+      "titles": [
+        "Shipping & Delivery Policy | Roun Groun"
+      ],
+      "description": [
+        "Read Roun Groun's shipping policy for delivery coverage, dispatch, tracking and delivery estimates, including how delays are handled."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/shipping-policy/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/terms-and-conditions/",
+      "url": "https://testarea.roungroun.com/terms-and-conditions/",
+      "status": 200,
+      "titles": [
+        "Terms & Conditions | Roun Groun"
+      ],
+      "description": [
+        "Read the terms for using Roun Groun's website and placing orders, including account information, products, pricing and customer responsibilities."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/terms-and-conditions/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/refund-returns/",
+      "url": "https://testarea.roungroun.com/refund-returns/",
+      "status": 200,
+      "titles": [
+        "Returns & Refund Policy | Roun Groun"
+      ],
+      "description": [
+        "Read Roun Groun's cancellation, return and refund policy, including the return window, eligibility, return shipping and refund processing."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/refund-returns/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/privacy-policy/",
+      "url": "https://testarea.roungroun.com/privacy-policy/",
+      "status": 200,
+      "titles": [
+        "Privacy Policy | Roun Groun"
+      ],
+      "description": [
+        "Learn what information Roun Groun collects, how it is used and protected, and your choices about cookies and personal information."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/privacy-policy/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/about-roun-groun/",
+      "url": "https://testarea.roungroun.com/about-roun-groun/",
+      "status": 200,
+      "titles": [
+        "About Roun Groun | Fitness, Outdoors & Everyday Life"
+      ],
+      "description": [
+        "Meet Roun Groun, a Bengaluru-based active-lifestyle brand by CEPA Group. Discover our approach to fitness gear, outdoor essentials and everyday movement."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/about-roun-groun/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/shop/",
+      "url": "https://testarea.roungroun.com/shop/",
+      "status": 200,
+      "titles": [
+        "Shop Fitness, Outdoor & Everyday Gear | Roun Groun"
+      ],
+      "description": [
+        "Shop Roun Groun fitness equipment, camping essentials and everyday carry. Explore resistance bands, liquid chalk, portable stoves, bags and training accessories."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/shop/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/",
+      "url": "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/",
+      "status": 200,
+      "titles": [
+        "Drop-Set Pin for Weight-Stack Machines | Roun Groun"
+      ],
+      "description": [
+        "A steel-core drop-set pin for compatible open weight-stack machines. Choose your pin diameter and colour, and check your machine's fit before ordering."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "ItemPage",
+        "Product"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/",
+      "url": "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/",
+      "status": 200,
+      "titles": [
+        "Liquid Chalk, 50 ml | Roun Groun"
+      ],
+      "description": [
+        "Roun Groun 50 ml liquid chalk for weightlifting, gymnastics and calisthenics. Magnesium carbonate grip formula in a compact bottle with a carry clip."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "ItemPage",
+        "Product"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/",
+      "url": "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/",
+      "status": 200,
+      "titles": [
+        "White Semi-Transparent PVC Tote Bag | Roun Groun"
+      ],
+      "description": [
+        "A white semi-transparent PVC tote for beach days, shopping and everyday carry. Reusable, easy to clean and finished with a button closure."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "ItemPage",
+        "Product"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/",
+      "url": "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/",
+      "status": 200,
+      "titles": [
+        "Natural Latex Resistance Bands, Set of 5 | Roun Groun"
+      ],
+      "description": [
+        "A set of five natural latex resistance bands for home strength work, mobility and controlled stretching, with five resistance levels."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "ItemPage",
+        "Product"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/",
+      "url": "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/",
+      "status": 200,
+      "titles": [
+        "Portable Butane Camping Stove | Roun Groun"
+      ],
+      "description": [
+        "Portable butane camping stove with an adjustable flame, stainless-steel case and built-in piezo ignition. Includes a travel bag and manual."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "ItemPage",
+        "Product"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/",
+      "url": "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/",
+      "status": 200,
+      "titles": [
+        "Titanium Safety Whistle & Lanyard | Roun Groun"
+      ],
+      "description": [
+        "A compact titanium-alloy safety whistle for hiking, camping and sports, with a pea-less design and reflective red lanyard for easy carry."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "ImageObject",
+        "ItemPage",
+        "Product"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product-category/gym-tools-equipments/",
+      "url": "https://testarea.roungroun.com/product-category/gym-tools-equipments/",
+      "status": 200,
+      "titles": [
+        "Gym Tools & Training Equipment | Roun Groun"
+      ],
+      "description": [
+        "Explore Roun Groun training equipment, including drop-set pins, liquid chalk and resistance bands. Find practical tools for your gym or home workouts."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product-category/gym-tools-equipments/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product-category/camping-outdoor-equipments-essentials/",
+      "url": "https://testarea.roungroun.com/product-category/camping-outdoor-equipments-essentials/",
+      "status": 200,
+      "titles": [
+        "Camping & Outdoor Essentials | Roun Groun"
+      ],
+      "description": [
+        "Browse Roun Groun camping and outdoor essentials, including portable butane stoves, safety whistles and reusable tote bags."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product-category/camping-outdoor-equipments-essentials/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product-category/home-gym-essentials/",
+      "url": "https://testarea.roungroun.com/product-category/home-gym-essentials/",
+      "status": 200,
+      "titles": [
+        "Home Gym Essentials | Roun Groun"
+      ],
+      "description": [
+        "Shop Roun Groun home gym essentials, including natural latex resistance bands for strength, mobility and controlled stretching."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/product-category/home-gym-essentials/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/cart/",
+      "url": "https://testarea.roungroun.com/cart/",
+      "status": 200,
+      "titles": [
+        "Cart \u00bb ROUN GROUN"
+      ],
+      "description": [
+        "Cart Page"
+      ],
+      "canonical": [],
+      "robots": [
+        "noindex, follow"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/checkout/",
+      "url": "https://testarea.roungroun.com/checkout/",
+      "status": 200,
+      "titles": [
+        "Checkout \u00bb ROUN GROUN"
+      ],
+      "description": [
+        "Checkout Page"
+      ],
+      "canonical": [],
+      "robots": [
+        "noindex, follow"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/my-account/",
+      "url": "https://testarea.roungroun.com/my-account/",
+      "status": 200,
+      "titles": [
+        "My account \u00bb ROUN GROUN"
+      ],
+      "description": [
+        "My Account Page"
+      ],
+      "canonical": [],
+      "robots": [
+        "noindex, follow"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/wishlist/",
+      "url": "https://testarea.roungroun.com/wishlist/",
+      "status": 200,
+      "titles": [
+        "Wishlist \u00bb ROUN GROUN"
+      ],
+      "description": [
+        "Wishlist Page"
+      ],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/about/",
+      "url": "https://testarea.roungroun.com/about-roun-groun/",
+      "status": 200,
+      "titles": [
+        "About Roun Groun | Fitness, Outdoors & Everyday Life"
+      ],
+      "description": [
+        "Meet Roun Groun, a Bengaluru-based active-lifestyle brand by CEPA Group. Discover our approach to fitness gear, outdoor essentials and everyday movement."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/about-roun-groun/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/cancellation-request/",
+      "url": "https://testarea.roungroun.com/cancellation-request/",
+      "status": 200,
+      "titles": [
+        "Cancellation request \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/return-request/",
+      "url": "https://testarea.roungroun.com/return-request/",
+      "status": 200,
+      "titles": [
+        "Return request \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/?s=bands",
+      "url": "https://testarea.roungroun.com/?s=bands",
+      "status": 200,
+      "titles": [
+        "bands \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "SearchResultsPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/shop/?orderby=price",
+      "url": "https://testarea.roungroun.com/shop/?orderby=price",
+      "status": 200,
+      "titles": [
+        "Shop Fitness, Outdoor & Everyday Gear | Roun Groun"
+      ],
+      "description": [
+        "Shop Roun Groun fitness equipment, camping essentials and everyday carry. Explore resistance bands, liquid chalk, portable stoves, bags and training accessories."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/shop/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/brand/roun-groun/",
+      "url": "https://testarea.roungroun.com/brand/roun-groun/",
+      "status": 200,
+      "titles": [
+        "Roun Groun Archives \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage",
+        null
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product-category/uncategorized/",
+      "url": "https://testarea.roungroun.com/product-category/uncategorized/",
+      "status": 200,
+      "titles": [
+        "Uncategorized \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/product-category/sportswear-sportsgear-activewear/",
+      "url": "https://testarea.roungroun.com/product-category/sportswear-sportsgear-activewear/",
+      "status": 200,
+      "titles": [
+        "Sportswear \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "CollectionPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/refund_returns/",
+      "url": "https://testarea.roungroun.com/refund-returns/",
+      "status": 200,
+      "titles": [
+        "Returns & Refund Policy | Roun Groun"
+      ],
+      "description": [
+        "Read Roun Groun's cancellation, return and refund policy, including the return window, eligibility, return shipping and refund processing."
+      ],
+      "canonical": [
+        "https://testarea.roungroun.com/refund-returns/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/wp-sitemap.xml",
+      "url": "https://testarea.roungroun.com/sitemap_index.xml",
+      "status": 200,
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/wp-sitemap-posts-page-1.xml",
+      "url": "https://testarea.roungroun.com/page-sitemap.xml",
+      "status": 200,
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/wp-sitemap-posts-product-1.xml",
+      "url": "https://testarea.roungroun.com/product-sitemap.xml",
+      "status": 200,
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/rg-seo-audit-nonexistent-55/",
+      "url": "https://testarea.roungroun.com/rg-seo-audit-nonexistent-55/",
+      "status": 404,
+      "titles": [
+        "Page Not Found \u00bb ROUN GROUN"
+      ],
+      "description": [],
+      "canonical": [],
+      "robots": [
+        "follow, noindex"
+      ],
+      "schema_types": [
+        "Organization",
+        "WebSite",
+        "WebPage"
+      ]
+    },
+    {
+      "requested": "https://testarea.roungroun.com/robots.txt",
+      "url": "https://testarea.roungroun.com/robots.txt",
+      "status": 200,
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp",
+      "url": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp",
+      "status": 200,
+      "schema_types": []
+    },
+    {
+      "requested": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo-32x32.webp",
+      "url": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo-32x32.webp",
+      "status": 200,
+      "schema_types": []
+    }
+  ]
+}
