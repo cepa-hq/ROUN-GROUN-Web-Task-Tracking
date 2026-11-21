@@ -1,0 +1,46 @@
+[
+  {
+    "term_id": 18,
+    "key": "rank_math_title",
+    "value": "Gym Tools &amp; Training Equipment | Roun Groun"
+  },
+  {
+    "term_id": 18,
+    "key": "rank_math_description",
+    "value": "Explore Roun Groun training equipment, including drop-set pins, liquid chalk and resistance bands. Find practical tools for your gym or home workouts."
+  },
+  {
+    "term_id": 20,
+    "key": "rank_math_title",
+    "value": "Camping &amp; Outdoor Essentials | Roun Groun"
+  },
+  {
+    "term_id": 20,
+    "key": "rank_math_description",
+    "value": "Browse Roun Groun camping and outdoor essentials, including portable butane stoves, safety whistles and reusable tote bags."
+  },
+  {
+    "term_id": 43,
+    "key": "rank_math_title",
+    "value": "Home Gym Essentials | Roun Groun"
+  },
+  {
+    "term_id": 43,
+    "key": "rank_math_description",
+    "value": "Shop Roun Groun home gym essentials, including natural latex resistance bands for strength, mobility and controlled stretching."
+  },
+  {
+    "term_id": 15,
+    "key": "rank_math_robots",
+    "value": [
+      "noindex"
+    ]
+  },
+  {
+    "term_id": 47,
+    "key": "rank_math_robots",
+    "value": [
+      "noindex"
+    ]
+  }
+]
