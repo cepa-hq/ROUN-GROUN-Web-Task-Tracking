@@ -1,0 +1,142 @@
+{
+  "records": [
+    {
+      "id": 1518,
+      "slug": "return-request",
+      "raw_changed_fields": [],
+      "content_sha256": "498d77dffa0b64019621cae226c29b18aa569fc97d3259efbcffa4d18c22d30b"
+    },
+    {
+      "id": 1517,
+      "slug": "cancellation-request",
+      "raw_changed_fields": [],
+      "content_sha256": "498d77dffa0b64019621cae226c29b18aa569fc97d3259efbcffa4d18c22d30b"
+    },
+    {
+      "id": 1445,
+      "slug": "about",
+      "raw_changed_fields": [],
+      "content_sha256": "b5cea33f1dd2b8370029099c359af20371031423985c1c444108f3df8f422802"
+    },
+    {
+      "id": 520,
+      "slug": "shipping-policy",
+      "raw_changed_fields": [],
+      "content_sha256": "95ff9e8937da1587d63b41a1824a9223065698e466c34f49dcb920772678b478"
+    },
+    {
+      "id": 509,
+      "slug": "privacy-policy",
+      "raw_changed_fields": [],
+      "content_sha256": "6a0e664551ea4a316e28a082bac8aad789735fc3363b0dd4c12d0fd81a1770b0"
+    },
+    {
+      "id": 286,
+      "slug": "wishlist",
+      "raw_changed_fields": [],
+      "content_sha256": "49c530655dddaceddb08f6442f712715fab5011ccf5567e775e1c17235c3a15e"
+    },
+    {
+      "id": 212,
+      "slug": "terms-and-conditions",
+      "raw_changed_fields": [],
+      "content_sha256": "589437f761b27fd07bec9ad095d760b1592f9cfece03c01a231bc9b3002dc3d5"
+    },
+    {
+      "id": 10,
+      "slug": "refund-returns",
+      "raw_changed_fields": [],
+      "content_sha256": "1dc54b88eb1ee3a8d99e76f6232b6725b59336edc464d624498beade81dee431"
+    },
+    {
+      "id": 22,
+      "slug": "contact",
+      "raw_changed_fields": [],
+      "content_sha256": "aa33852ba4a7be113ca608d075e9e0702162811ed9a1f0b573675e935d9e01c6"
+    },
+    {
+      "id": 20,
+      "slug": "about-roun-groun",
+      "raw_changed_fields": [],
+      "content_sha256": "ca223490400da615b1cb294bafe8195ebc22c364a0e252e64760832b0bd4dfc9"
+    },
+    {
+      "id": 17,
+      "slug": "home",
+      "raw_changed_fields": [],
+      "content_sha256": "e4265380609eadfd445e469632aef9fae5e461da453d5a54cc6af39b99a1bc44"
+    },
+    {
+      "id": 9,
+      "slug": "my-account",
+      "raw_changed_fields": [],
+      "content_sha256": "91793c7142ce612ecaf0f78a8f87474898a2cd22ca75bd44a7cf04a684f12200"
+    },
+    {
+      "id": 8,
+      "slug": "checkout",
+      "raw_changed_fields": [],
+      "content_sha256": "d4077c8e1547710d0daac847b2de723efae80cf432b401eff3d14cb2fc5bb51f"
+    },
+    {
+      "id": 7,
+      "slug": "cart",
+      "raw_changed_fields": [],
+      "content_sha256": "510f8daa9d78b52fef8e9dafb78170289e773c0e1795b92a1d065b8e2e05fabe"
+    },
+    {
+      "id": 6,
+      "slug": "shop",
+      "raw_changed_fields": [],
+      "content_sha256": "e15b8282aaa117cff40af20f8bb90c33dab646f1b2149c5ffb0bc170e89984d2"
+    },
+    {
+      "id": 1197,
+      "slug": "roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag",
+      "raw_changed_fields": [],
+      "content_sha256": "095d6fd791ed47c7968e66e53f6ec979efde8d504b0150d59fb8dd8e88217833"
+    },
+    {
+      "id": 1099,
+      "slug": "roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation",
+      "raw_changed_fields": [],
+      "content_sha256": "13efaa453c763eaec4e4e278644897bfd53180304cf425dd9c11abe9ec9c8872"
+    },
+    {
+      "id": 1063,
+      "slug": "roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly",
+      "raw_changed_fields": [],
+      "content_sha256": "26097c7077fcdaf02a13cbe6c24944556d220d01420036f4667be93e8a88e150"
+    },
+    {
+      "id": 1044,
+      "slug": "roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof",
+      "raw_changed_fields": [],
+      "content_sha256": "9d29db6a117cc1599dff1e0d4ad270253afaf889650c07461d0abf304f640dab"
+    },
+    {
+      "id": 938,
+      "slug": "roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma",
+      "raw_changed_fields": [],
+      "content_sha256": "ee03d94f2d89291f2fbb3487c619822c48077c56e5f330f5c572cce32e7c91d6"
+    },
+    {
+      "id": 77,
+      "slug": "roun-groun-drop-set-pin-steel-construction",
+      "raw_changed_fields": [],
+      "content_sha256": "d6ef541ab1737692bd5e417d2a8335590a20532207d7c676ada0ba26e8e1cb38"
+    }
+  ],
+  "generated_cache_changes": [
+    {
+      "id": 17,
+      "key": "_uag_page_assets",
+      "difference": "uag_version timestamp only"
+    }
+  ],
+  "unintended_meta_changes": [],
+  "seo_parity_differences": [],
+  "term_values_verified": 8,
+  "brand_memberships_verified": 6,
+  "all_passed": true
+}
