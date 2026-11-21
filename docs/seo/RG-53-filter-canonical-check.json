@@ -1,0 +1,56 @@
+[
+  {
+    "requested": "https://roungroun.com/?rgh_cat=43",
+    "url": "https://roungroun.com/?rgh_cat=43",
+    "status": 200,
+    "titles": [
+      "Roun Groun | Fitness, Outdoor & Everyday Gear"
+    ],
+    "description": [
+      "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life."
+    ],
+    "canonical": [
+      "https://roungroun.com/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "error": null
+  },
+  {
+    "requested": "https://roungroun.com/?rgh_cat=18",
+    "url": "https://roungroun.com/?rgh_cat=18",
+    "status": 200,
+    "titles": [
+      "Roun Groun | Fitness, Outdoor & Everyday Gear"
+    ],
+    "description": [
+      "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life."
+    ],
+    "canonical": [
+      "https://roungroun.com/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "error": null
+  },
+  {
+    "requested": "https://roungroun.com/?rgh_cat=20",
+    "url": "https://roungroun.com/?rgh_cat=20",
+    "status": 200,
+    "titles": [
+      "Roun Groun | Fitness, Outdoor & Everyday Gear"
+    ],
+    "description": [
+      "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life."
+    ],
+    "canonical": [
+      "https://roungroun.com/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "error": null
+  }
+]
