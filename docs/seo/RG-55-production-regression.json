@@ -1,0 +1,42 @@
+[
+  {
+    "requested": "https://roungroun.com/",
+    "url": "https://roungroun.com/",
+    "status": 200,
+    "titles": [
+      "Roun Groun | Fitness, Outdoor & Everyday Gear"
+    ],
+    "description": [
+      "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life."
+    ],
+    "canonical": [
+      "https://roungroun.com/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ]
+  },
+  {
+    "requested": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/",
+    "url": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/",
+    "status": 200,
+    "titles": [
+      "Drop-Set Pin for Weight-Stack Machines | Roun Groun"
+    ],
+    "description": [
+      "A steel-core drop-set pin for compatible open weight-stack machines. Choose your pin diameter and colour, and check your machine's fit before ordering."
+    ],
+    "canonical": [
+      "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ]
+  },
+  {
+    "requested": "https://roungroun.com/robots.txt",
+    "url": "https://roungroun.com/robots.txt",
+    "status": 200,
+    "text": "User-agent: *\nDisallow: /wp-content/uploads/wc-logs/\nDisallow: /wp-content/uploads/woocommerce_transient_files/\nDisallow: /wp-content/uploads/woocommerce_uploads/\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\nSitemap: https://roungroun.com/sitemap_index.xml\n"
+  }
+]
