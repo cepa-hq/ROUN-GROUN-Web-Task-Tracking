@@ -1,0 +1,22 @@
+--- a/roun-groun-core-header/includes/shell.php
++++ b/roun-groun-core-header/includes/shell.php
+@@ -12,7 +12,19 @@ final class RGHC_Shell {
+             return $classes;
+         });
+         add_action('wp_enqueue_scripts', array(__CLASS__, 'assets'), 10000);
++        add_action('wp_head', array(__CLASS__, 'single_title'), 0);
+     }
++
++    /** RG-53: block-template resolution adds a second title after Rank Math loads.
++     * Keep Rank Math as the title owner, retaining WordPress fallback when inactive.
++     * Run at wp_head so late block-template hooks have already been registered.
++     * Do not remove canonical, robots, schema or tracking callbacks.
++     */
++    public static function single_title() {
++        if (has_action('rank_math/head', '_wp_render_title_tag') !== false) {
++            remove_action('wp_head', '_block_template_render_title_tag', 1);
++        }
++    }
+     public static function supports() {
+         add_theme_support('title-tag'); add_theme_support('post-thumbnails');
+         add_theme_support('woocommerce');
