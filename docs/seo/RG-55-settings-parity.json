@@ -1,0 +1,50 @@
+{
+  "source": "RG-53 fresh production export, unchanged at sync start",
+  "general_exact_target_parity": true,
+  "titles_exact_target_parity": true,
+  "sitemap_unchanged_and_prod_equal": true,
+  "modules_unchanged_and_prod_equal": true,
+  "environment_mapped_fields": [
+    {
+      "group": "general",
+      "key": "attachment_redirect_default",
+      "staging": "https://testarea.roungroun.com",
+      "production": "https://roungroun.com"
+    },
+    {
+      "group": "general",
+      "key": "breadcrumbs_home_link",
+      "staging": "https://testarea.roungroun.com",
+      "production": "https://roungroun.com"
+    },
+    {
+      "group": "titles",
+      "key": "url",
+      "staging": "https://testarea.roungroun.com",
+      "production": "https://roungroun.com"
+    },
+    {
+      "group": "titles",
+      "key": "knowledgegraph_logo",
+      "staging": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp",
+      "production": "https://roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp"
+    }
+  ],
+  "functional_values": {
+    "product_brand": "product_brand",
+    "product_schema_default_name": "%title%",
+    "category_seo_controls": "on",
+    "brand_seo_controls": "on",
+    "facebook": "https://www.facebook.com/profile.php?id=61595907878250",
+    "instagram": "https://www.instagram.com/roun.groun/",
+    "knowledgegraph_logo_id": "1532",
+    "sitemap_excluded_posts": "7,8,9,286,1445,1517,1518",
+    "sitemap_excluded_terms": "15"
+  },
+  "staging_protection": {
+    "physical_robots": "User-agent: *\nDisallow: /",
+    "reading_discourage_checkbox": "unchecked; unchanged"
+  },
+  "external_google_settings": "not copied or changed; see RG-53 Search Console reference",
+  "credentials": "not copied; omitted from record"
+}

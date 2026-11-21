@@ -1,0 +1,450 @@
+{
+  "captured_utc": "2026-11-21T15:32:01Z",
+  "requests": 37,
+  "eligible_urls": 17,
+  "checks": 110,
+  "all_passed": true,
+  "staging_robots": "User-agent: *\nDisallow: /",
+  "results": [
+    {
+      "name": "37 anonymous staging requests",
+      "passed": true
+    },
+    {
+      "name": "18 sitemap entries / 17 unique",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/terms-and-conditions/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/camping-outdoor-equipments-essentials/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/refund-returns/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/home-gym-essentials/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/privacy-policy/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/contact/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/about-roun-groun/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/shipping-policy/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/shop/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/gym-tools-equipments/ eligible page integrity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/contact/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/contact/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/shipping-policy/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/shipping-policy/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/terms-and-conditions/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/terms-and-conditions/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/refund-returns/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/refund-returns/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/privacy-policy/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/privacy-policy/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/about-roun-groun/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/about-roun-groun/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/shop/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/shop/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/gym-tools-equipments/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product-category/gym-tools-equipments/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/camping-outdoor-equipments-essentials/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/home-gym-essentials/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product-category/home-gym-essentials/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/cart/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/cart/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/checkout/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/checkout/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/my-account/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/my-account/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/wishlist/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/wishlist/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/about/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/about/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/cancellation-request/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/cancellation-request/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/return-request/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/return-request/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/?s=bands one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/?s=bands production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/shop/?orderby=price one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/shop/?orderby=price production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/brand/roun-groun/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/brand/roun-groun/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/uncategorized/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product-category/uncategorized/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/sportswear-sportsgear-activewear/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/product-category/sportswear-sportsgear-activewear/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/refund_returns/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://roungroun.com/refund_returns/ production head parity",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/rg-seo-audit-nonexistent-55/ one title / valid JSON-LD / no legacy apparel",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/cart/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/checkout/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/my-account/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/wishlist/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/cancellation-request/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/return-request/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/?s=bands noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/uncategorized/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product-category/sportswear-sportsgear-activewear/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/brand/roun-groun/ noindex and absent sitemap",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ single Product",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ accurate branded offer",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ single Product",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ accurate branded offer",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ single Product",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ accurate branded offer",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ single Product",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ accurate branded offer",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ single Product",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ accurate branded offer",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ single Product",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ accurate branded offer",
+      "passed": true
+    },
+    {
+      "name": "six product schema nodes",
+      "passed": true
+    },
+    {
+      "name": "official social profiles",
+      "passed": true
+    },
+    {
+      "name": "logo staging-local and512px",
+      "passed": true
+    },
+    {
+      "name": "staging remains crawl-blocked",
+      "passed": true
+    },
+    {
+      "name": "real404 preserved",
+      "passed": true
+    },
+    {
+      "name": "sorting canonical preserved",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp logo/favicon accessible",
+      "passed": true
+    },
+    {
+      "name": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo-32x32.webp logo/favicon accessible",
+      "passed": true
+    }
+  ]
+}

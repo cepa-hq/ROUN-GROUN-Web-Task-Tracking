@@ -1,0 +1,194 @@
+[
+  {
+    "group": "general",
+    "key": "breadcrumbs_remove_post_title",
+    "stage": null,
+    "prod": "off"
+  },
+  {
+    "group": "general",
+    "key": "product_brand",
+    "stage": null,
+    "prod": "product_brand"
+  },
+  {
+    "group": "general",
+    "key": "breadcrumbs_home_link",
+    "stage": null,
+    "prod": "https://roungroun.com"
+  },
+  {
+    "group": "general",
+    "key": "support_rank_math",
+    "stage": null,
+    "prod": "on"
+  },
+  {
+    "group": "general",
+    "key": "headless_support",
+    "stage": null,
+    "prod": "off"
+  },
+  {
+    "group": "general",
+    "key": "breadcrumbs_hide_taxonomy_name",
+    "stage": null,
+    "prod": "off"
+  },
+  {
+    "group": "general",
+    "key": "rss_before_content",
+    "stage": "",
+    "prod": null
+  },
+  {
+    "group": "general",
+    "key": "attachment_redirect_default",
+    "stage": "https://testarea.roungroun.com",
+    "prod": "https://roungroun.com"
+  },
+  {
+    "group": "general",
+    "key": "rss_after_content",
+    "stage": "",
+    "prod": null
+  },
+  {
+    "group": "general",
+    "key": "frontend_seo_score_template",
+    "stage": null,
+    "prod": "circle"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_description",
+    "stage": null,
+    "prod": "%excerpt%"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_bulk_editing",
+    "stage": null,
+    "prod": "editing"
+  },
+  {
+    "group": "titles",
+    "key": "url",
+    "stage": "https://testarea.roungroun.com",
+    "prod": "https://roungroun.com"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_slack_enhanced_sharing",
+    "stage": null,
+    "prod": "off"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_article_type",
+    "stage": null,
+    "prod": "Article"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_ls_use_fk",
+    "stage": null,
+    "prod": "titles"
+  },
+  {
+    "group": "titles",
+    "key": "tax_product_brand_add_meta_box",
+    "stage": "off",
+    "prod": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_add_meta_box",
+    "stage": null,
+    "prod": "on"
+  },
+  {
+    "group": "titles",
+    "key": "knowledgegraph_logo",
+    "stage": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp",
+    "prod": "https://roungroun.com/wp-content/uploads/2026/11/cropped-Multicolour-Gradient-RG-Logo.webp"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_snippet_desc",
+    "stage": null,
+    "prod": "%seo_description%"
+  },
+  {
+    "group": "titles",
+    "key": "social_url_facebook",
+    "stage": null,
+    "prod": "https://www.facebook.com/profile.php?id=61595907878250"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_rich_snippet",
+    "stage": null,
+    "prod": "off"
+  },
+  {
+    "group": "titles",
+    "key": "social_additional_profiles",
+    "stage": null,
+    "prod": "https://www.instagram.com/roun.groun/"
+  },
+  {
+    "group": "titles",
+    "key": "tax_product_cat_add_meta_box",
+    "stage": "off",
+    "prod": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_custom_robots",
+    "stage": null,
+    "prod": "off"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_default_snippet_name",
+    "stage": null,
+    "prod": "%seo_title%"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_link_suggestions",
+    "stage": null,
+    "prod": "on"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_title",
+    "stage": null,
+    "prod": "%title% %page% %sep% %sitename%"
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_advanced_robots",
+    "stage": null,
+    "prod": {
+      "max-snippet": "-1",
+      "max-video-preview": "-1",
+      "max-image-preview": "large"
+    }
+  },
+  {
+    "group": "titles",
+    "key": "pt_e-floating-buttons_robots",
+    "stage": null,
+    "prod": [
+      "index"
+    ]
+  },
+  {
+    "group": "titles",
+    "key": "pt_product_default_snippet_name",
+    "stage": "%seo_title%",
+    "prod": "%title%"
+  }
+]
