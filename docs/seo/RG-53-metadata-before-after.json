@@ -1,0 +1,500 @@
+[
+  {
+    "id": 6,
+    "slug": "shop",
+    "title": "Shop",
+    "before": {
+      "rank_math_title": "Shop Fitness, Outdoor &amp; Everyday Gear | Roun Groun",
+      "rank_math_description": "Shop Roun Groun fitness equipment, camping essentials and everyday carry. Explore resistance bands, liquid chalk, portable stoves, bags and training accessories.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Shop Fitness, Outdoor &amp; Everyday Gear | Roun Groun",
+      "rank_math_description": "Shop Roun Groun fitness equipment, camping essentials and everyday carry. Explore resistance bands, liquid chalk, portable stoves, bags and training accessories.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 7,
+    "slug": "cart",
+    "title": "Cart",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "Cart Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": "Cart Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 8,
+    "slug": "checkout",
+    "title": "Checkout",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "Checkout Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": "Checkout Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 9,
+    "slug": "my-account",
+    "title": "My account",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "My Account Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": "My Account Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 10,
+    "slug": "refund-returns",
+    "title": "Refund and Returns Policy",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "Refund and Returns Policy",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Returns &amp; Refund Policy | Roun Groun",
+      "rank_math_description": "Read Roun Groun's cancellation, return and refund policy, including the return window, eligibility, return shipping and refund processing.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 17,
+    "slug": "home",
+    "title": "Home",
+    "before": {
+      "rank_math_title": "Roun Groun | Fitness, Outdoor & Everyday Gear",
+      "rank_math_description": "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Roun Groun | Fitness, Outdoor & Everyday Gear",
+      "rank_math_description": "Explore Roun Groun fitness equipment, camping and outdoor essentials, and everyday carry. Find practical gear for home workouts, adventures and daily life.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 20,
+    "slug": "about-roun-groun",
+    "title": "About",
+    "before": {
+      "rank_math_title": "About Roun Groun | Fitness, Outdoors &amp; Everyday Life",
+      "rank_math_description": "Meet Roun Groun, a Bengaluru-based active-lifestyle brand by CEPA Group. Discover our approach to fitness gear, outdoor essentials and everyday movement.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "About Roun Groun | Fitness, Outdoors &amp; Everyday Life",
+      "rank_math_description": "Meet Roun Groun, a Bengaluru-based active-lifestyle brand by CEPA Group. Discover our approach to fitness gear, outdoor essentials and everyday movement.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 22,
+    "slug": "contact",
+    "title": "Contact",
+    "before": {
+      "rank_math_title": "Contact Roun Groun | Product Help &amp; Order Support",
+      "rank_math_description": "Contact Roun Groun for product advice, delivery updates, returns and bulk enquiries. Reach our Bengaluru team by WhatsApp, phone, email or callback request.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Contact Roun Groun | Product Help &amp; Order Support",
+      "rank_math_description": "Contact Roun Groun for product advice, delivery updates, returns and bulk enquiries. Reach our Bengaluru team by WhatsApp, phone, email or callback request.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 212,
+    "slug": "terms-and-conditions",
+    "title": "Terms and Conditions",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "Terms and Conditions Page",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Terms &amp; Conditions | Roun Groun",
+      "rank_math_description": "Read the terms for using Roun Groun's website and placing orders, including account information, products, pricing and customer responsibilities.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 286,
+    "slug": "wishlist",
+    "title": "Wishlist",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "Wishlist Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": "Wishlist Page",
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 509,
+    "slug": "privacy-policy",
+    "title": "Privacy Policy",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Privacy Policy | Roun Groun",
+      "rank_math_description": "Learn what information Roun Groun collects, how it is used and protected, and your choices about cookies and personal information.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 520,
+    "slug": "shipping-policy",
+    "title": "Shipping policy",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": "Shipping &amp; Delivery Policy | Roun Groun",
+      "rank_math_description": "Read Roun Groun's shipping policy for delivery coverage, dispatch, tracking and delivery estimates, including how delays are handled.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 1445,
+    "slug": "about",
+    "title": "About New",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 1517,
+    "slug": "cancellation-request",
+    "title": "Cancellation request",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 1518,
+    "slug": "return-request",
+    "title": "Return request",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "after": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": "a:1:{i:0;s:7:\"noindex\";}",
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": null,
+      "rank_math_primary_product_brand": null
+    },
+    "brand_terms_after": []
+  },
+  {
+    "id": 77,
+    "slug": "roun-groun-drop-set-pin-steel-construction",
+    "title": "Roun Groun Drop-Set Pin for Weight-Stack Machines",
+    "before": {
+      "rank_math_title": "ROUN GROUN Drop-Set Pin | Weight Stack Reduction Training | 2 Sizes",
+      "rank_math_description": "Optimize your training with the ROUN GROUN Drop-Set Pin. This steel construction equipment comes in two sizes, ideal for weight stack reduction and HIIT sessions.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "0",
+      "rank_math_primary_product_brand": "0"
+    },
+    "after": {
+      "rank_math_title": "Drop-Set Pin for Weight-Stack Machines | Roun Groun",
+      "rank_math_description": "A steel-core drop-set pin for compatible open weight-stack machines. Choose your pin diameter and colour, and check your machine's fit before ordering.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "0",
+      "rank_math_primary_product_brand": "47"
+    },
+    "brand_terms_after": [
+      {
+        "domain": "product_brand",
+        "nicename": "roun-groun",
+        "value": "Roun Groun"
+      }
+    ]
+  },
+  {
+    "id": 938,
+    "slug": "roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma",
+    "title": "Roun Groun Liquid Chalk, 50 ml",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "18",
+      "rank_math_primary_product_brand": "0"
+    },
+    "after": {
+      "rank_math_title": "Liquid Chalk, 50 ml | Roun Groun",
+      "rank_math_description": "Roun Groun 50 ml liquid chalk for weightlifting, gymnastics and calisthenics. Magnesium carbonate grip formula in a compact bottle with a carry clip.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "18",
+      "rank_math_primary_product_brand": "47"
+    },
+    "brand_terms_after": [
+      {
+        "domain": "product_brand",
+        "nicename": "roun-groun",
+        "value": "Roun Groun"
+      }
+    ]
+  },
+  {
+    "id": 1044,
+    "slug": "roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof",
+    "title": "Roun Groun Titanium Safety Whistle with Reflective Lanyard",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": "Be heard when it matters most with the Roun Groun Titanium Safety Whistle, engineered for camping, sports, and emergency survival.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "20",
+      "rank_math_primary_product_brand": "0"
+    },
+    "after": {
+      "rank_math_title": "Titanium Safety Whistle &amp; Lanyard | Roun Groun",
+      "rank_math_description": "A compact titanium-alloy safety whistle for hiking, camping and sports, with a pea-less design and reflective red lanyard for easy carry.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "20",
+      "rank_math_primary_product_brand": "47"
+    },
+    "brand_terms_after": [
+      {
+        "domain": "product_brand",
+        "nicename": "roun-groun",
+        "value": "Roun Groun"
+      }
+    ]
+  },
+  {
+    "id": 1063,
+    "slug": "roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly",
+    "title": "Roun Groun Semi-Transparent PVC Tote Bag, White",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "20",
+      "rank_math_primary_product_brand": "0"
+    },
+    "after": {
+      "rank_math_title": "White Semi-Transparent PVC Tote Bag | Roun Groun",
+      "rank_math_description": "A white semi-transparent PVC tote for beach days, shopping and everyday carry. Reusable, easy to clean and finished with a button closure.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "20",
+      "rank_math_primary_product_brand": "47"
+    },
+    "brand_terms_after": [
+      {
+        "domain": "product_brand",
+        "nicename": "roun-groun",
+        "value": "Roun Groun"
+      }
+    ]
+  },
+  {
+    "id": 1099,
+    "slug": "roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation",
+    "title": "Roun Groun Natural Latex Resistance Bands, Set of 5",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "43",
+      "rank_math_primary_product_brand": "0"
+    },
+    "after": {
+      "rank_math_title": "Natural Latex Resistance Bands, Set of 5 | Roun Groun",
+      "rank_math_description": "A set of five natural latex resistance bands for home strength work, mobility and controlled stretching, with five resistance levels.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "43",
+      "rank_math_primary_product_brand": "47"
+    },
+    "brand_terms_after": [
+      {
+        "domain": "product_brand",
+        "nicename": "roun-groun",
+        "value": "Roun Groun"
+      }
+    ]
+  },
+  {
+    "id": 1197,
+    "slug": "roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag",
+    "title": "Roun Groun Portable Butane Camping Stove",
+    "before": {
+      "rank_math_title": null,
+      "rank_math_description": null,
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "0",
+      "rank_math_primary_product_brand": "0"
+    },
+    "after": {
+      "rank_math_title": "Portable Butane Camping Stove | Roun Groun",
+      "rank_math_description": "Portable butane camping stove with an adjustable flame, stainless-steel case and built-in piezo ignition. Includes a travel bag and manual.",
+      "rank_math_robots": null,
+      "rank_math_canonical_url": null,
+      "rank_math_primary_product_cat": "20",
+      "rank_math_primary_product_brand": "47"
+    },
+    "brand_terms_after": [
+      {
+        "domain": "product_brand",
+        "nicename": "roun-groun",
+        "value": "Roun Groun"
+      }
+    ]
+  }
+]
