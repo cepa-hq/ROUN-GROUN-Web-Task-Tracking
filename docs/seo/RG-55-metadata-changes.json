@@ -1,0 +1,218 @@
+[
+  {
+    "prod_id": "10",
+    "stage_id": 10,
+    "slug": "refund-returns",
+    "key": "rank_math_description",
+    "before": "Refund and Returns Policy",
+    "after": "Read Roun Groun's cancellation, return and refund policy, including the return window, eligibility, return shipping and refund processing."
+  },
+  {
+    "prod_id": "10",
+    "stage_id": 10,
+    "slug": "refund-returns",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Returns &amp; Refund Policy | Roun Groun"
+  },
+  {
+    "prod_id": "212",
+    "stage_id": 212,
+    "slug": "terms-and-conditions",
+    "key": "rank_math_description",
+    "before": "Terms and Conditions Page",
+    "after": "Read the terms for using Roun Groun's website and placing orders, including account information, products, pricing and customer responsibilities."
+  },
+  {
+    "prod_id": "212",
+    "stage_id": 212,
+    "slug": "terms-and-conditions",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Terms &amp; Conditions | Roun Groun"
+  },
+  {
+    "prod_id": "509",
+    "stage_id": 509,
+    "slug": "privacy-policy",
+    "key": "rank_math_description",
+    "before": null,
+    "after": "Learn what information Roun Groun collects, how it is used and protected, and your choices about cookies and personal information."
+  },
+  {
+    "prod_id": "509",
+    "stage_id": 509,
+    "slug": "privacy-policy",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Privacy Policy | Roun Groun"
+  },
+  {
+    "prod_id": "520",
+    "stage_id": 520,
+    "slug": "shipping-policy",
+    "key": "rank_math_description",
+    "before": null,
+    "after": "Read Roun Groun's shipping policy for delivery coverage, dispatch, tracking and delivery estimates, including how delays are handled."
+  },
+  {
+    "prod_id": "520",
+    "stage_id": 520,
+    "slug": "shipping-policy",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Shipping &amp; Delivery Policy | Roun Groun"
+  },
+  {
+    "prod_id": "77",
+    "stage_id": 77,
+    "slug": "roun-groun-drop-set-pin-steel-construction",
+    "key": "rank_math_description",
+    "before": "Optimize your training with the ROUN GROUN Drop-Set Pin. This steel construction equipment comes in two sizes, ideal for weight stack reduction and HIIT sessions.",
+    "after": "A steel-core drop-set pin for compatible open weight-stack machines. Choose your pin diameter and colour, and check your machine's fit before ordering."
+  },
+  {
+    "prod_id": "77",
+    "stage_id": 77,
+    "slug": "roun-groun-drop-set-pin-steel-construction",
+    "key": "rank_math_title",
+    "before": "ROUN GROUN Drop-Set Pin | Weight Stack Reduction Training | 2 Sizes",
+    "after": "Drop-Set Pin for Weight-Stack Machines | Roun Groun"
+  },
+  {
+    "prod_id": "77",
+    "stage_id": 77,
+    "slug": "roun-groun-drop-set-pin-steel-construction",
+    "key": "rank_math_primary_product_brand",
+    "before": "0",
+    "after": "47"
+  },
+  {
+    "prod_id": "938",
+    "stage_id": 938,
+    "slug": "roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma",
+    "key": "rank_math_description",
+    "before": null,
+    "after": "Roun Groun 50 ml liquid chalk for weightlifting, gymnastics and calisthenics. Magnesium carbonate grip formula in a compact bottle with a carry clip."
+  },
+  {
+    "prod_id": "938",
+    "stage_id": 938,
+    "slug": "roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Liquid Chalk, 50 ml | Roun Groun"
+  },
+  {
+    "prod_id": "938",
+    "stage_id": 938,
+    "slug": "roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma",
+    "key": "rank_math_primary_product_brand",
+    "before": "0",
+    "after": "47"
+  },
+  {
+    "prod_id": "1044",
+    "stage_id": 1044,
+    "slug": "roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof",
+    "key": "rank_math_description",
+    "before": "Be heard when it matters most with the Roun Groun Titanium Safety Whistle, engineered for camping, sports, and emergency survival.",
+    "after": "A compact titanium-alloy safety whistle for hiking, camping and sports, with a pea-less design and reflective red lanyard for easy carry."
+  },
+  {
+    "prod_id": "1044",
+    "stage_id": 1044,
+    "slug": "roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Titanium Safety Whistle &amp; Lanyard | Roun Groun"
+  },
+  {
+    "prod_id": "1044",
+    "stage_id": 1044,
+    "slug": "roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof",
+    "key": "rank_math_primary_product_brand",
+    "before": "0",
+    "after": "47"
+  },
+  {
+    "prod_id": "1063",
+    "stage_id": 1063,
+    "slug": "roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly",
+    "key": "rank_math_description",
+    "before": null,
+    "after": "A white semi-transparent PVC tote for beach days, shopping and everyday carry. Reusable, easy to clean and finished with a button closure."
+  },
+  {
+    "prod_id": "1063",
+    "stage_id": 1063,
+    "slug": "roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "White Semi-Transparent PVC Tote Bag | Roun Groun"
+  },
+  {
+    "prod_id": "1063",
+    "stage_id": 1063,
+    "slug": "roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly",
+    "key": "rank_math_primary_product_brand",
+    "before": "0",
+    "after": "47"
+  },
+  {
+    "prod_id": "1099",
+    "stage_id": 1099,
+    "slug": "roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation",
+    "key": "rank_math_description",
+    "before": null,
+    "after": "A set of five natural latex resistance bands for home strength work, mobility and controlled stretching, with five resistance levels."
+  },
+  {
+    "prod_id": "1099",
+    "stage_id": 1099,
+    "slug": "roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Natural Latex Resistance Bands, Set of 5 | Roun Groun"
+  },
+  {
+    "prod_id": "1099",
+    "stage_id": 1099,
+    "slug": "roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation",
+    "key": "rank_math_primary_product_brand",
+    "before": "0",
+    "after": "47"
+  },
+  {
+    "prod_id": "1197",
+    "stage_id": 1197,
+    "slug": "roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag",
+    "key": "rank_math_primary_product_cat",
+    "before": "0",
+    "after": "20"
+  },
+  {
+    "prod_id": "1197",
+    "stage_id": 1197,
+    "slug": "roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag",
+    "key": "rank_math_description",
+    "before": null,
+    "after": "Portable butane camping stove with an adjustable flame, stainless-steel case and built-in piezo ignition. Includes a travel bag and manual."
+  },
+  {
+    "prod_id": "1197",
+    "stage_id": 1197,
+    "slug": "roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag",
+    "key": "rank_math_title",
+    "before": null,
+    "after": "Portable Butane Camping Stove | Roun Groun"
+  },
+  {
+    "prod_id": "1197",
+    "stage_id": 1197,
+    "slug": "roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag",
+    "key": "rank_math_primary_product_brand",
+    "before": "0",
+    "after": "47"
+  }
+]
