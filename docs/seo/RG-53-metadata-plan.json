@@ -1,0 +1,88 @@
+{
+  "pages": [
+    {
+      "id": 520,
+      "slug": "shipping-policy",
+      "title": "Shipping & Delivery Policy | Roun Groun",
+      "description": "Read Roun Groun's shipping policy for delivery coverage, dispatch, tracking and delivery estimates, including how delays are handled."
+    },
+    {
+      "id": 10,
+      "slug": "refund-returns",
+      "title": "Returns & Refund Policy | Roun Groun",
+      "description": "Read Roun Groun's cancellation, return and refund policy, including the return window, eligibility, return shipping and refund processing."
+    },
+    {
+      "id": 509,
+      "slug": "privacy-policy",
+      "title": "Privacy Policy | Roun Groun",
+      "description": "Learn what information Roun Groun collects, how it is used and protected, and your choices about cookies and personal information."
+    },
+    {
+      "id": 212,
+      "slug": "terms-and-conditions",
+      "title": "Terms & Conditions | Roun Groun",
+      "description": "Read the terms for using Roun Groun's website and placing orders, including account information, products, pricing and customer responsibilities."
+    }
+  ],
+  "products": [
+    {
+      "id": 77,
+      "title": "Drop-Set Pin for Weight-Stack Machines | Roun Groun",
+      "description": "A steel-core drop-set pin for compatible open weight-stack machines. Choose your pin diameter and colour, and check your machine's fit before ordering."
+    },
+    {
+      "id": 938,
+      "title": "Liquid Chalk, 50 ml | Roun Groun",
+      "description": "Roun Groun 50 ml liquid chalk for weightlifting, gymnastics and calisthenics. Magnesium carbonate grip formula in a compact bottle with a carry clip."
+    },
+    {
+      "id": 1044,
+      "title": "Titanium Safety Whistle & Lanyard | Roun Groun",
+      "description": "A compact titanium-alloy safety whistle for hiking, camping and sports, with a pea-less design and reflective red lanyard for easy carry."
+    },
+    {
+      "id": 1063,
+      "title": "White Semi-Transparent PVC Tote Bag | Roun Groun",
+      "description": "A white semi-transparent PVC tote for beach days, shopping and everyday carry. Reusable, easy to clean and finished with a button closure."
+    },
+    {
+      "id": 1099,
+      "title": "Natural Latex Resistance Bands, Set of 5 | Roun Groun",
+      "description": "A set of five natural latex resistance bands for home strength work, mobility and controlled stretching, with five resistance levels."
+    },
+    {
+      "id": 1197,
+      "title": "Portable Butane Camping Stove | Roun Groun",
+      "description": "Portable butane camping stove with an adjustable flame, stainless-steel case and built-in piezo ignition. Includes a travel bag and manual.",
+      "primary_product_cat": 20
+    }
+  ],
+  "categories": [
+    {
+      "id": 18,
+      "slug": "gym-tools-equipments",
+      "title": "Gym Tools & Training Equipment | Roun Groun",
+      "description": "Explore Roun Groun training equipment, including drop-set pins, liquid chalk and resistance bands. Find practical tools for your gym or home workouts."
+    },
+    {
+      "id": 20,
+      "slug": "camping-outdoor-equipments-essentials",
+      "title": "Camping & Outdoor Essentials | Roun Groun",
+      "description": "Browse Roun Groun camping and outdoor essentials, including portable butane stoves, safety whistles and reusable tote bags."
+    },
+    {
+      "id": 43,
+      "slug": "home-gym-essentials",
+      "title": "Home Gym Essentials | Roun Groun",
+      "description": "Shop Roun Groun home gym essentials, including natural latex resistance bands for strength, mobility and controlled stretching."
+    },
+    {
+      "id": 15,
+      "slug": "uncategorized",
+      "robots": [
+        "noindex"
+      ]
+    }
+  ]
+}
