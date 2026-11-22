@@ -1,0 +1,16 @@
+# RG-57 checkpoint — 23 November 2026 (India)
+
+IMPLEMENTED AND VERIFIED; leave issue57 open for owner review and future performance measurement. Read RG-57-REPORT.md and RG-57-VERIFICATION.json. They supersede earlier in-progress checkpoints.
+
+- Production and staging: official WooCommerce code+DB11.3.1, Google for WooCommerce3.10.1 active. Native production MAPI productInputs.insert batch16 succeeded/0failed; original source/offer IDs retained. Source UI can still say Content API. No Cloud credentials, reconnect, Ads activation/spend or tracking edit.
+- Existing manual supplemental XML uploaded/refreshed:16matched, no file issues; source/public facts and planned attributes committed. Conditional title/description rules tested successfully and APPLIED. AI-assisted content disclosure preserved; future unmatched products retain ordinary text fallback.
+- All8 pins: restored only Category/Description/Item group id. Chalk:Title/Category. Tote:Description. Band1101:Color restored to actualBeige/Black. Pin84:stale2700/1099 discount removed by restoring live source1099/no sale. Other manual fields retained. No Woo price/stock changes.
+- Existing Google market delivery estimate1–2days contradicted live shipping policy3–5days. Native Primary Market changed to3–5 on both sites; Google readback Free/3–5days/India/All/Complete. Native vendor combines total as transit with handling0/0; separate handling/cutoff NOT configured. No legal wording or checkout shipping rate changes.
+- FINAL GMC inventory17approved =16synced+1automaticallyfound;0processing/disapproved. All16 enriched titles observed. Detailed factual description/category/group readback across all6families. Needs attention no product issues; setup/policy no issues. Both final corrected offers reapproved.
+- Staged regression passed shop sorting/Quicklook/variable choice/quantity1cart699/checkoutsummary; required phone validation blocked progression. No order/payment, cartrestoredempty. Account390/768/1280nooverflow. Products/prices/stock/ordercounts/settings preserved after package update; later Google estimate correction intentional. No new staging PHP errors.
+- Native DB+plugins backups retained privately on bothsites; media/themesexcluded, restoreunexercised. Never blindly restore old liveDB over neworders.
+- ExistingAds paused/removed. Free eligibility does not guarantee search display/rank. No measured ranking gain claimed. StorequalityGood, imagesExceptional. Optional real GoogleCustomerReviews not enabled (terms/consent mayapply).
+- Native logs identify8historicorphans69–76 outsidecurrentcatalogue; notdeleted. Discoveredparent outsideWoo mapping creates nonfataldiagnostic. AutomaticGoogle reconciliation reducedextraoffers2→1; no manualdeletion.
+- XML is MANUAL enrichment, not an automatic new WordPress feed. Maintain rows/specifications for newoffers; preserve dynamicAPIprices/stock. OldrawWPdescriptions remainstored, currentGMCdescriptionscleanedbystructuredsource.
+
+Remaining: owner review of documentation PR; measure organic listing performance after a meaningful interval. No further implementation blocker. Do not redo updates/rules/override cleanup or submit staging as a new Google source. Preserve RG44/45 and production customer/order/review data. No private account identifiers, raw analytics, credentials or backup links in publicGit.
