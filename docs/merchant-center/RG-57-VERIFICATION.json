@@ -1,0 +1,94 @@
+{
+  "task": "RG-57",
+  "checked_date_india": "2026-11-23",
+  "merchant_api": {
+    "production_verified": true,
+    "operation": "MapiProductInputsService::insert_many productInputs.insert",
+    "batch_utc": "2026-11-22T02:53:29Z",
+    "succeeded": 16,
+    "failed": 0,
+    "stable_offer_ids_retained": true,
+    "existing_primary_source_retained": true
+  },
+  "versions": {
+    "production": {"woocommerce_code": "11.3.1", "woocommerce_database": "11.3.1", "google_for_woocommerce": "3.10.1"},
+    "staging": {"woocommerce_code": "11.3.1", "woocommerce_database": "11.3.1", "google_for_woocommerce": "3.10.1"}
+  },
+  "supplemental_file": {
+    "name": "roun-groun-merchant-enrichment.xml",
+    "sha256": "2df95a1590211d5341cf84220f98b6d57d100d15a7707d6d5f3ae78d259a6c3a",
+    "offers": 16,
+    "matched": 16,
+    "grouped_variants": 13,
+    "all_attributes_recognized": true,
+    "file_issues": 0,
+    "ai_content_disclosure": "trained_algorithmic_media",
+    "static_price_stock_image_link_gtin_mpn_overrides": false,
+    "update_method": "manual upload; not an automatic custom WordPress feed"
+  },
+  "rule_test": {
+    "processed": 16,
+    "free_listings_approved_before": 16,
+    "free_listings_approved_after": 16,
+    "shopping_ads_approved_before": 16,
+    "shopping_ads_approved_after": 16,
+    "new_issues": 0,
+    "rules_applied": true,
+    "ordinary_text_clear_guarded_by_structured_field_presence": true
+  },
+  "final_merchant_inventory": {
+    "total": 17,
+    "synced_offers": 16,
+    "automatically_found_offers": 1,
+    "approved": 17,
+    "processing": 0,
+    "disapproved": 0,
+    "current_api_offers_out_of_stock": 4,
+    "product_issues_shown": 0,
+    "setup_policy_issues_shown": 0,
+    "all_16_enriched_titles_observed": true,
+    "detailed_category_description_and_group_readback": "all six product families; representative variant panels",
+    "ranking_gain_measured": false
+  },
+  "additional_corrections": {
+    "gla_1101_color": {"before": "Green/Beige/Black", "after": "Beige/Black", "method": "restore existing live-source Color", "final_status": "Approved"},
+    "gla_84_price": {"before_regular_inr": 2700, "before_sale_inr": 1099, "after_price_inr": 1099, "after_sale_price": null, "method": "restore existing live-source Price and Sale price", "woo_price_changed": false, "final_status": "Approved"},
+    "google_shipping_estimate": {"before_days": [1, 2], "after_days": [3, 5], "countries": ["IN"], "rate_inr": 0, "scope": "all products", "production_native_readback": true, "staging_native_readback": true, "merchant_center_readback": true, "separate_handling_and_cutoff_configured": false}
+  },
+  "regression": {
+    "staging_price_stock_inventory_parity": true,
+    "staging_order_status_count_parity": true,
+    "staging_existing_general_shipping_parity_after_package_update": true,
+    "new_vendor_address_autocomplete_disabled": true,
+    "staging_php_log_no_new_entries": true,
+    "shop_sorting_and_quick_look": "passed",
+    "variable_selection": "passed after native async variation update",
+    "staging_cart_quantity": 1,
+    "staging_cart_total_inr": 699,
+    "staging_cart_restored_empty": true,
+    "checkout_summary": "passed",
+    "checkout_progression": "stopped at existing required phone validation",
+    "orders_created": 0,
+    "payments_attempted": 0,
+    "production_band_selection_and_quantity_readback": "Buy now enabled after settled variation update; quantity1",
+    "account_preview_no_horizontal_overflow_widths": [390, 768, 1280]
+  },
+  "preservation": {
+    "google_account_connections": true,
+    "ads_campaign_states_unchanged": true,
+    "ads_spend_enabled": false,
+    "tracking_code_edited": false,
+    "custom_rg_plugin_code_edited": false,
+    "approved_layouts_or_policy_wording_edited": false,
+    "customer_order_review_data_replaced": false
+  },
+  "limitations": [
+    "Approved free listings do not guarantee display or rank for a particular search.",
+    "Paid campaigns remain paused or removed.",
+    "Native vendor delivery settings combine the total estimate and do not configure separate handling/cutoff fields.",
+    "Manual enrichment requires maintenance for new offers or specification changes.",
+    "Eight historic orphan variations were logged, excluded from sync and not deleted.",
+    "Native database+plugin backups were created; restoration was not exercised.",
+    "No end-to-end payment transaction was performed."
+  ]
+}
