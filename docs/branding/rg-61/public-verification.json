@@ -1,0 +1,114 @@
+[
+  {
+    "host": "https://roungroun.com",
+    "links": [
+      "<link rel=\"icon\" href=\"https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png\" sizes=\"32x32\" />",
+      "<link rel=\"icon\" href=\"https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png\" sizes=\"192x192\" />",
+      "<link rel=\"apple-touch-icon\" href=\"https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png\" />"
+    ],
+    "images": [
+      {
+        "url": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png",
+        "status": 200,
+        "type": "image/png",
+        "size": [
+          32,
+          32
+        ],
+        "bytes": 1291,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "sha256": "6a5e3828c487c6cc50d63d18ae6301af1b6bb915944e02107d5353b877aca116"
+      },
+      {
+        "url": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png",
+        "status": 200,
+        "type": "image/png",
+        "size": [
+          192,
+          192
+        ],
+        "bytes": 8356,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "sha256": "3f902395dda287d180aff2a5f5398aa6476781a0a519ef1a97001082f8273eaf"
+      },
+      {
+        "url": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png",
+        "status": 200,
+        "type": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "bytes": 7490,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "sha256": "377a47f9647bdaa0fdead9b3efc1d46cc130ce82a816d5140e3fd7204bb22a90"
+      }
+    ],
+    "new_icon_referenced": true
+  },
+  {
+    "host": "https://testarea.roungroun.com",
+    "links": [
+      "<link rel=\"icon\" href=\"https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png\" sizes=\"32x32\" />",
+      "<link rel=\"icon\" href=\"https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png\" sizes=\"192x192\" />",
+      "<link rel=\"apple-touch-icon\" href=\"https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png\" />"
+    ],
+    "images": [
+      {
+        "url": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png",
+        "status": 200,
+        "type": "image/png",
+        "size": [
+          32,
+          32
+        ],
+        "bytes": 1288,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "sha256": "68bbf839fbaadb1cdf3331c3e872813fc85460f84116a71235867a3d33d84fe6"
+      },
+      {
+        "url": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png",
+        "status": 200,
+        "type": "image/png",
+        "size": [
+          192,
+          192
+        ],
+        "bytes": 7485,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "sha256": "c7c628299125a89be234c7b14e976d17c3f639f02011b005ddab0ef40f2316d9"
+      },
+      {
+        "url": "https://testarea.roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png",
+        "status": 200,
+        "type": "image/png",
+        "size": [
+          180,
+          180
+        ],
+        "bytes": 6784,
+        "alpha_extrema": [
+          0,
+          253
+        ],
+        "sha256": "caa5c854df5e8078efd2227712c710e33b14f7ec4209fc03eb17a9a5a9e54840"
+      }
+    ],
+    "new_icon_referenced": true
+  }
+]
