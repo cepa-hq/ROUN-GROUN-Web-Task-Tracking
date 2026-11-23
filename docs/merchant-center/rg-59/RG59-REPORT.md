@@ -70,6 +70,7 @@ Uploaded to the existing enrichment source. GMC confirmed 16 updated /16 matched
 
 - PHP syntax passed. Standalone tests: 35 behavior assertions passed.
 - Staging: eight anonymous HTTP cases passed; production: the same eight passed. Exact variation/simple add; repeat quantity1; unrelated-item preservation; zero quantity, malformed ID, missing attributes and out-of-stock rejection; guest checkout and attribution passthrough.
+- Two additional staging cases passed: a variable parent plus real colour selection resolves the exact band variation; a conflicting native add-to-cart query is ignored by the single-writer flow. Its test line was removed.
 - All entry responses303 +no-store/noindex; clean destinations verified.
 - Production band retested after SEO saves: Beige/Black quantity1; its disposable test-cart line removed.
 - Test carts emptied; no order/payment submitted and no customer/order/review data changed.
