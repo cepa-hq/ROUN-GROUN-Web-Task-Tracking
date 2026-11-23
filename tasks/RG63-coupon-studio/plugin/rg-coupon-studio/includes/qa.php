@@ -9,6 +9,20 @@ final class RGCO_QA {
   foreach($emails as $email)add_filter('woocommerce_email_enabled_'.$email,'__return_false',PHP_INT_MAX);
   add_filter('woocommerce_webhook_should_deliver','__return_false',PHP_INT_MAX);
   try{
+   $raw=['code'=>'rgco-qa-editor-'.strtolower(wp_generate_password(10,false)),'description'=>'Disposable editor fixture','discount_type'=>'percent','amount'=>'17.5','status'=>'draft','start'=>'','end'=>'','stack'=>'1','once_account'=>'1'];
+   $editor=new WC_Coupon();$editor->set_minimum_amount('45');$editor->set_maximum_amount('900');$editor->set_email_restrictions(['qa@example.invalid']);$editor->set_exclude_sale_items(true);$editor->set_usage_limit(37);$editor->set_usage_count(3);$editor->set_product_ids([123]);$editor->set_product_categories([456]);
+   $valid=RGCO_Editor::validate($raw,0);RGCO_Editor::persist($editor,$valid);$coupons[]=$editor;$editor=new WC_Coupon($editor->get_id());
+   $assert($editor->get_status()==='draft' && $editor->get_meta('_rgco_enabled')==='yes' && (float)$editor->get_amount()===17.5,'Unified editor creates a managed draft with percentage discount');
+   $assert(!$editor->get_date_expires() && !(int)$editor->get_meta('_rgco_end'),'Unified editor blank closing time persists indefinite duration');
+   $assert($editor->get_meta('_rgco_stack')==='yes' && $editor->get_meta('_rgco_once_account')==='yes' && $editor->get_meta('_rgco_once_ip')==='no','Unified editor persists checked and unchecked identity/stack flags');
+   $assert((float)$editor->get_minimum_amount()===45.0 && (float)$editor->get_maximum_amount()===900.0 && $editor->get_email_restrictions()===['qa@example.invalid'] && $editor->get_exclude_sale_items() && $editor->get_usage_limit()===37 && $editor->get_usage_count()===3 && $editor->get_product_ids()===[123] && $editor->get_product_categories()===[456],'Unified editor preserves native restrictions and existing usage count');
+   $revision=RGCO_Editor::revision($editor);$assert($revision===RGCO_Editor::revision(new WC_Coupon($editor->get_id())),'Concurrent-edit revision is stable after database reload');
+   $bad=$raw;$bad['code']=$raw['code'];$refused=false;try{RGCO_Editor::validate($bad,0);}catch(Throwable $e){$refused=true;}$assert($refused,'Unified editor rejects duplicate coupon code');
+   foreach([['amount'=>'101'],['amount'=>'12abc'],['end'=>'2026-11-32T10:00'],['start'=>'2030-01-02T10:00','end'=>'2030-01-01T10:00'],['status'=>'trash']] as $bad){$refused=false;try{RGCO_Editor::validate(array_merge($raw,$bad),$editor->get_id());}catch(Throwable $e){$refused=true;}$assert($refused,'Unified editor rejects invalid '.implode('/',array_keys($bad)).' before saving');}
+   $same=new WC_Coupon($editor->get_id());$assert((float)$same->get_amount()===17.5 && RGCO_Editor::revision($same)===$revision,'Rejected editor validation leaves the saved coupon unchanged');
+   $raw['discount_type']='fixed_cart';$raw['amount']='25';$raw['start']='2030-01-01T09:30';$raw['end']='2030-01-02T09:30';$raw['once_ip']='1';$raw['once_email']='1';unset($raw['stack']);RGCO_Editor::persist($editor,RGCO_Editor::validate($raw,$editor->get_id()));$editor=new WC_Coupon($editor->get_id());
+   $assert($editor->get_discount_type()==='fixed_cart' && (float)$editor->get_amount()===25.0 && RGCO_Admin::time_input($editor->get_meta('_rgco_start'))===$raw['start'] && RGCO_Admin::time_input($editor->get_meta('_rgco_end'))===$raw['end'] && $editor->get_meta('_rgco_stack')==='no' && $editor->get_meta('_rgco_once_ip')==='yes' && $editor->get_meta('_rgco_once_email')==='yes','Unified editor updates the same coupon with flat discount, schedule and identity limits');
+   $assert(RGCO_Editor::revision($editor)!==$revision,'Concurrent-edit revision changes when coupon settings change');
    $payload=['email'=>'coupon-qa@example.invalid','account_name'=>'QA only','cart'=>[['product_id'=>0,'quantity'=>2]]];
    $cipher=RGCO_Storage::encrypt($payload);
    $assert(RGCO_Storage::decrypt($cipher)===$payload && !str_contains($cipher,'example.invalid'),'Encrypted snapshot round-trip; plaintext is not stored');
