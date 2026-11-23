@@ -1,0 +1,451 @@
+{
+  "staging": {
+    "cases": [
+      {
+        "test": "variation",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1
+        ],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "repeat",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1
+        ],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "simple",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "quantity-zero",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "Choose a whole-number quantity between 1 and 99."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "malformed",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "This product link is invalid. Please choose an item from the shop."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "missing-attributes",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "Please choose all product options on the product page before checking out."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "out-of-stock",
+        "final_url": "https://testarea.roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "This product option is currently unavailable. Please choose another item or option."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "checkout",
+        "final_url": "https://testarea.roungroun.com/checkout/?utm_source=rg59-test",
+        "quantities": [],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://testarea.roungroun.com/checkout/?utm_source=rg59-test",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      }
+    ],
+    "test_cart_empty": true
+  },
+  "production": {
+    "cases": [
+      {
+        "test": "variation",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1
+        ],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "repeat",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1
+        ],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "simple",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "quantity-zero",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "Choose a whole-number quantity between 1 and 99."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "malformed",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "This product link is invalid. Please choose an item from the shop."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "missing-attributes",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "Please choose all product options on the product page before checking out."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "out-of-stock",
+        "final_url": "https://roungroun.com/cart/",
+        "quantities": [
+          1,
+          1
+        ],
+        "notices": [
+          "This product option is currently unavailable. Please choose another item or option."
+        ],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/cart/",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      },
+      {
+        "test": "checkout",
+        "final_url": "https://roungroun.com/checkout/?utm_source=rg59-test",
+        "quantities": [],
+        "notices": [],
+        "redirects": [
+          {
+            "code": 303,
+            "target": "https://roungroun.com/checkout/?utm_source=rg59-test",
+            "cache": "no-cache, must-revalidate, max-age=0, no-store, private",
+            "robots": "noindex, nofollow, noarchive"
+          }
+        ]
+      }
+    ],
+    "test_cart_empty": true
+  },
+  "source_sha256": {
+    "cart.php": "abd30300940b50947bc0833ef2475c9e268c3832471b53909c67f0608e3102f4",
+    "roun-groun-checkout-studio.php": "4e82a8293336aafa3425f031cd7d667f128e2da43ab19cf2ee7b58a41d05f1e5",
+    "merchant-entry.php": "d118360707d2e52a3ef91da4fc3d1c5d34a2a9d7e812ed4569ea5dd3c923e6b3",
+    "roun-groun-merchant-enrichment.xml": "2fcc3e5fb5b4cd2889c90397c9bbdb54309c94cb547a70022568cc6c82ca50e8"
+  },
+  "feed": {
+    "rows": 16,
+    "only_product_structured_titles_changed": true,
+    "uploaded_to_existing_source": true,
+    "processing_confirmation_pending": false,
+    "matched": 16,
+    "recognized_attribute_names": true,
+    "file_issues": 0,
+    "approved_total_including_automatic": 17,
+    "fresh_api_successes": 12,
+    "original_full_16_api_success_checkpoint": "RG-57",
+    "raw_checkout_urls_verified": [
+      "gla_938",
+      "gla_1101"
+    ],
+    "new_structured_title_confirmed_in_product_detail": [
+      "gla_938",
+      "gla_1101"
+    ]
+  },
+  "public_seo": [
+    {
+      "url": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/",
+      "status": 200,
+      "title": [
+        "Portable Butane Gas Camping Stove | Roun Groun"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "canonical": [
+        "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/"
+      ],
+      "description": [
+        "Portable butane camping stove with an adjustable flame, stainless-steel case and built-in piezo ignition. Includes a travel bag and manual."
+      ]
+    },
+    {
+      "url": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/",
+      "status": 200,
+      "title": [
+        "Gym Drop-Set Pin for Weight-Stack Machines | Roun Groun"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "canonical": [
+        "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/"
+      ],
+      "description": [
+        "A steel-core drop-set pin for compatible open weight-stack machines. Choose your pin diameter and colour, and check your machine's fit before ordering."
+      ]
+    },
+    {
+      "url": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/",
+      "status": 200,
+      "title": [
+        "Latex Resistance Bands Set of 5 for Home Gym | Roun Groun"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "canonical": [
+        "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/"
+      ],
+      "description": [
+        "A set of five natural latex resistance bands for home strength work, mobility and controlled stretching, with five resistance levels."
+      ]
+    },
+    {
+      "url": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/",
+      "status": 200,
+      "title": [
+        "White PVC Beach & Shopping Tote Bag | Roun Groun"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "canonical": [
+        "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/"
+      ],
+      "description": [
+        "A white semi-transparent PVC tote for beach days, shopping and everyday carry. Reusable, easy to clean and finished with a button closure."
+      ]
+    },
+    {
+      "url": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/",
+      "status": 200,
+      "title": [
+        "Titanium Safety Whistle for Hiking & Camping | Roun Groun"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "canonical": [
+        "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/"
+      ],
+      "description": [
+        "A compact titanium-alloy safety whistle for hiking, camping and sports, with a pea-less design and reflective red lanyard for easy carry."
+      ]
+    },
+    {
+      "url": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/",
+      "status": 200,
+      "title": [
+        "Liquid Chalk for Gym & Weightlifting, 50 ml | Roun Groun"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "canonical": [
+        "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/"
+      ],
+      "description": [
+        "Roun Groun 50 ml liquid chalk for weightlifting, gymnastics and calisthenics. Magnesium carbonate grip formula in a compact bottle with a carry clip."
+      ]
+    }
+  ],
+  "checkout_settings": {
+    "old_rejected_template_removed": true,
+    "account_uri_template": "",
+    "feed_only_setup_saved_per_official_instructions": true,
+    "show_in_ads_setting_persisted_after_reopen": true,
+    "campaigns_activated": false,
+    "business_info_summary_still_says_opted_out": true,
+    "google_checkout_display_verified": false
+  },
+  "website": {
+    "plugin_version": "1.3.5",
+    "staging_and_production_source_parity": true,
+    "existing_bodies_excerpts_preserved_all_six": true,
+    "production_band_post_seo_retest_quantity": 1,
+    "no_orders_or_payments_created": true
+  },
+  "additional_staging_integration": {
+    "tests": [
+      {
+        "test": "variable-parent-with-attributes",
+        "final": "https://testarea.roungroun.com/cart/",
+        "quantity": 1,
+        "line_count": 1,
+        "exact_variant": "Beige/Black",
+        "pass": true
+      },
+      {
+        "test": "single-writer-native-query-conflict",
+        "final": "https://testarea.roungroun.com/cart/",
+        "quantity": 1,
+        "line_count": 1,
+        "exact_variant": "Beige/Black",
+        "pass": true
+      }
+    ],
+    "test_lines_removed": 1
+  }
+}
