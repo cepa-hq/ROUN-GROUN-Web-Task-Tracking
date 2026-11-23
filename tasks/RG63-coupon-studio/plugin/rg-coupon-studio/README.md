@@ -1,10 +1,18 @@
-# Roun Groun Coupon Studio 1.0.0
+# Roun Groun Coupon Studio 1.1.0
+
+## Unified editor update — RG65
+
+WooCommerce → Coupon Studio → **Create coupon** now opens one form for code, internal description, percentage/flat cart/flat product discount, active/paused status, exact opening/closing time, stacking and once-per-IP/account/email. Blank closing time means permanent. New coupons default to paused. Save then activate when ready. The dashboard lists existing coupons with an Edit coupon link. Native Woo Add/Edit navigation opens the same form for supported discount types; advanced native editing remains explicitly accessible.
+
+The form uses the same WC_Coupon IDs, attempt history and successful-use ledger. Existing product/category/spend/email/global usage restrictions and native usage counts are retained. Managed schedules replace native date-only expiry; Studio stacking replaces individual-use; successful-use identity guards replace native per-user limits. Converting an existing native per-user limit requires explicit confirmation. Historical Woo usage is preserved but is not retroactively converted into Studio identity claims. Advanced Woo editor remains available for all other restrictions and extension types.
+
+All fields validate before saving; duplicate code, invalid amount/schedule/status and stale edit versions are refused. Failed input is retained briefly per manager. Save requires nonce, management and coupon edit/create/publish capabilities. No schema, encryption key, engine, storefront, gateway or production changes. Rollback: reinstall 1.0.0 plugin files, preserving the database; saved coupons and existing metadata remain usable in the previous native editor.
 
 Native WooCommerce integration, independent of Flatsome and CheckoutWC. Installed on staging only for RG63. No storefront assets. Public source contains no coupon data, customer records, secrets or site exports.
 
 ## Operator guide
 
-WooCommerce → Coupon Studio → Create coupon (or edit any existing Woo coupon). Set its code, description and General discount type: Percentage discount or Fixed cart discount. Standard Woo product/category/excluded-sale/minimum-spend rules remain available. In Usage restriction, enable **Manage with Coupon Studio** and choose stacking, once-per-IP/account/email, opening and closing date/time. Store timezone applies, with second-accurate server validation; picker resolution is one minute. Blank opening means now; blank closing is permanent/indefinite. To pause availability, use draft status in native editor. Coupons are never automatically published or distributed to Google.
+Use the unified editor described above for normal creation and editing. The explicitly linked Advanced WooCommerce editor retains General, Usage restriction and Usage limits panels for product/category/excluded-sale/minimum-spend rules and third-party controls. Its Usage restriction panel also retains the legacy Studio fields for compatibility. Store timezone applies, with second-accurate server validation; picker resolution is one minute. Coupons are never automatically distributed to Google.
 
 Every member of a stack must allow stacking. Applying a non-stackable coupon rejects the combination instead of silently deleting another coupon. Native individual-use coupons also prevent stacking. Saving a managed coupon clears native date-only expiry, individual-use and per-user usage count; Studio replaces those with exact schedule, stacking and successful-checkout rules. Native optional global usage limit remains a separate Woo limit and may include Woo pending reservations; leave it blank if only Studio successful-use semantics are desired.
 
