@@ -94,7 +94,7 @@ final class RGCO_Storage {
    'name'=>$p ? $p->get_name() : '', 'quantity'=>(int)$item['quantity'],
    'attributes'=>$item['variation']??[], 'subtotal'=>(string)($item['line_subtotal']??0), 'total'=>(string)($item['line_total']??0)
   ];}
-  $payload=['email'=>$email,'account_name'=>$user->exists()?$user->display_name:'','cart'=>$lines,'currency'=>get_woocommerce_currency(),'cart_total'=>$cart?(string)$cart->get_total('edit'):'','truncated'=>false];
+  $payload=['coupon_code'=>$id?$code:'','email'=>$email,'account_name'=>$user->exists()?$user->display_name:'','cart'=>$lines,'currency'=>get_woocommerce_currency(),'cart_total'=>$cart?(string)$cart->get_total('edit'):'','truncated'=>false];
   // Limit each snapshot. This stores no address, raw IP, payment details or arbitrary request body.
   if(strlen(wp_json_encode($payload))>262144){$payload['cart']=array_slice($lines,0,100);$payload['truncated']=true;}
   $ok=$wpdb->insert(self::table('attempts'),['created_at'=>gmdate('Y-m-d H:i:s'),'coupon_id'=>$id,'fingerprint'=>self::hash('code',$code),'outcome'=>$outcome,'source'=>$source,'user_id'=>$user->ID,'email_hash'=>$email?self::hash('email',strtolower(trim($email))):'','payload'=>self::encrypt($payload)]);
@@ -104,7 +104,7 @@ final class RGCO_Storage {
  static function outcome($id,$outcome){global $wpdb;return $wpdb->update(self::table('attempts'),['outcome'=>$outcome],['id'=>$id])!==false;}
  /** Atomic all-or-nothing claims; a unique PK plus row locks closes concurrent checkout races. */
  static function claim($claims,$order_id,$consume=false){
-  global $wpdb;$table=self::table('claims');sort($claims);$wpdb->query('START TRANSACTION');
+  global $wpdb;$table=self::table('claims');sort($claims);if($wpdb->query('START TRANSACTION')===false)throw new RuntimeException('Coupon reservation unavailable. Please try again.');
   try{
    foreach($claims as $claim){[$coupon,$scope,$hash]=$claim;
     $ok=$wpdb->query($wpdb->prepare("INSERT INTO $table (coupon_id,scope,identity_hash,order_id,state,updated_at) VALUES (%d,%s,%s,%d,'reserved',%s) ON DUPLICATE KEY UPDATE identity_hash=VALUES(identity_hash)",$coupon,$scope,$hash,$order_id,gmdate('Y-m-d H:i:s')));
