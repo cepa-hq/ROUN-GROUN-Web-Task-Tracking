@@ -1,4 +1,4 @@
-# Roun Groun Feedback system 1.0.0 — RG71
+# Roun Groun Feedback system 1.0.2 — RG71
 
 First-party WordPress plugin for the approved General feedback mk1 instrument. No SaaS feedback service, external font, chart library or frontend build is required. The existing Roun Groun native header remains the header owner. Only this plugin's CSS and JavaScript are added on survey/dashboard routes.
 
@@ -44,4 +44,4 @@ Native verified WordPress personal-data export includes answers/context; erasure
 
 ## Verification and rollback
 
-Run `php tests/unit.php` for real validator/Wilson edge cases, lint PHP and both JavaScript files. Live checks should cover login return, no-store, invalid/unknown/exclusive/branch/order/nonce input, repeat response/reward identity, filtered denominators and staff test isolation. Never seed fake customer feedback. Deactivate only `roun-groun-feedback-system/roun-groun-feedback-system.php` to remove routes/menu/UI; retain tables and reactivation restores access. No other plugin/theme changes required.
+Run `php tests/unit.php` and `php tests/transactions.php` for real validator/Wilson edge cases, lint PHP and both JavaScript files. Live checks should cover login return, no-store, invalid/unknown/exclusive/branch/order/nonce input, repeat response/reward identity, filtered denominators and staff test isolation. Never seed fake customer feedback. Deactivate only `roun-groun-feedback-system/roun-groun-feedback-system.php` to remove routes/menu/UI; retain tables and reactivation restores access. No other plugin/theme changes required.

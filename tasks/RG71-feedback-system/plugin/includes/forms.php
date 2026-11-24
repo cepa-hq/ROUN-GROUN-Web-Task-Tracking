@@ -8,6 +8,8 @@ defined('ABSPATH') || exit;
  */
 final class Forms {
     public static function all(): array {
+        static $base=null;
+        if($base!==null)return apply_filters('rgfs_forms',$base);
         $qs=json_decode(file_get_contents(ROOT.'/includes/general-mk1.json'),true);
         foreach ($qs as &$q) {
             $q['keys']=array_map(fn($i)=>'o'.$i,array_keys($q['options']));
@@ -16,7 +18,8 @@ final class Forms {
         $qs[]=['id'=>'checkout_part','title'=>'What got in the way?','help'=>'Optional checkout follow-up','multi'=>true,'required'=>false,'options'=>['Address','Delivery cost','Coupon','Payment','Something else'],'keys'=>['o0','o1','o2','o3','o4'],'condition'=>['checkout',['o2','o3']]];
         $form=['slug'=>'general-feedback-mk1','title'=>'General feedback mk1','version'=>1,'questions'=>$qs];
         $form['hash']=hash('sha256',wp_json_encode($form));
-        return apply_filters('rgfs_forms',['general-feedback-mk1'=>$form]);
+        $base=['general-feedback-mk1'=>$form];
+        return apply_filters('rgfs_forms',$base);
     }
     public static function get(string $slug): ?array { return self::all()[$slug]??null; }
     public static function snapshot():void{

@@ -59,11 +59,15 @@ final class Analytics {
         $entries=array_map([self::class,'entry'],$rows);
         return ['summary'=>['total'=>(int)$summary['total'],'customers'=>(int)$summary['customers'],'avg_seconds'=>round((float)$summary['avg_seconds']),'small_sample'=>(int)$summary['total']<30],'questions'=>$questions,'trend'=>array_reverse($trend),'gifts'=>$gifts,'entries'=>$entries,'filters'=>$f,'pages'=>max(1,(int)ceil((int)$summary['total']/$per)),'form'=>['slug'=>$form['slug'],'title'=>$form['title'],'version'=>$form['version']]];
     }
+    public static function orders_url($uid):string {
+        $hpos=class_exists('Automattic\\WooCommerce\\Utilities\\OrderUtil')&&\Automattic\WooCommerce\Utilities\OrderUtil::custom_orders_table_usage_is_enabled();
+        return add_query_arg('_customer_user',absint($uid),admin_url($hpos?'admin.php?page=wc-orders':'edit.php?post_type=shop_order'));
+    }
     public static function entry($row):array {
         $uid=(int)$row['user_id'];$u=$uid?get_userdata($uid):null;
         $order=function_exists('wc_get_order')&&$row['order_id']?wc_get_order($row['order_id']):null;
         // A reassigned/deleted order must not leak a different customer's context.
         if($order&&(int)$order->get_customer_id()!==$uid)$order=null;
-        return ['id'=>(int)$row['id'],'user_id'=>$uid,'name'=>$u?$u->display_name:'Deleted account','login'=>$u?$u->user_login:'','account_url'=>$u?admin_url('user-edit.php?user_id='.$uid):'','orders_url'=>$u?admin_url('admin.php?page=wc-orders&customer_id='.$uid):'','order'=>$order?['id'=>$order->get_id(),'number'=>$order->get_order_number(),'status'=>wc_get_order_status_name($order->get_status()),'url'=>$order->get_edit_order_url()]:null,'gift_state'=>$row['gift_state']??'','gift_order_id'=>(int)($row['gift_order_id']??0),'date'=>get_date_from_gmt($row['submitted_at'],'M j, Y H:i'),'device'=>$row['device'],'campaign'=>$row['campaign'],'is_test'=>(bool)$row['is_test'],'answers'=>json_decode($row['payload'],true),'elapsed'=>(int)$row['elapsed_seconds']];
+        return ['id'=>(int)$row['id'],'user_id'=>$uid,'name'=>$u?$u->display_name:'Deleted account','login'=>$u?$u->user_login:'','account_url'=>$u?admin_url('user-edit.php?user_id='.$uid):'','orders_url'=>$u?self::orders_url($uid):'','order'=>$order?['id'=>$order->get_id(),'number'=>$order->get_order_number(),'status'=>wc_get_order_status_name($order->get_status()),'url'=>$order->get_edit_order_url()]:null,'gift_state'=>$row['gift_state']??'','gift_order_id'=>(int)($row['gift_order_id']??0),'date'=>get_date_from_gmt($row['submitted_at'],'M j, Y H:i'),'device'=>$row['device'],'campaign'=>$row['campaign'],'is_test'=>(bool)$row['is_test'],'answers'=>json_decode($row['payload'],true),'elapsed'=>(int)$row['elapsed_seconds']];
     }
 }
