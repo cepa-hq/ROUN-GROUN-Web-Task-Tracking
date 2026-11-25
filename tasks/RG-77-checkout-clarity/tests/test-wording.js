@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');const src=fs.readFileSync(require('path').join(__dirname,'../roun-groun-checkout-messages/assets/contextual-checkout.js'),'utf8');const fn=src.slice(src.indexOf('function fieldMessage('),src.indexOf('\nfunction fieldInfo('));const ctx={};vm.createContext(ctx);vm.runInContext(fn,ctx);let n=0;const check=(f,want)=>{assert.equal(ctx.fieldMessage(f),want);n++;};
+check({key:'shipping_phone',type:'tel',reason:'required',label:'Phone',section:'Ship to a different address'},'Enter the recipient’s phone number in “Ship to a different address”.');
+check({key:'billing_phone',type:'tel',reason:'required',label:'Phone',section:'Account & contact details'},'Enter your phone number in “Account & contact details”.');
+check({key:'billing_first_name',type:'text',reason:'required',label:'First name',section:'Your address'},'Enter “First name” in “Your address”.');
+check({key:'shipping_state',type:'select',reason:'required',label:'State',section:'Ship to a different address'},'Choose “State” in “Ship to a different address”.');
+check({key:'billing_email',reason:'email',section:'Account & contact details'},'Enter a valid email address in “Account & contact details”, such as name@example.com.');
+check({key:'shipping_postcode',reason:'postcode',country:'IN',section:'Ship to a different address'},'Enter a 6-digit PIN code in “Ship to a different address”.');
+check({key:'billing_postcode',reason:'postcode',country:'US',section:'Your address'},'Enter a valid postcode or ZIP code in “Your address” for the selected country.');
+check({key:'rgck_custom_note',label:'Gift note',reason:'length',max:30,section:'Additional order details'},'Shorten “Gift note” in “Additional order details” to 30 characters or fewer.');
+assert(src.includes("e.stopImmediatePropagation();signal('validation',{step:0});return;"));n++;
+console.log(`PASS ${n} browser wording/submit contract checks`);
