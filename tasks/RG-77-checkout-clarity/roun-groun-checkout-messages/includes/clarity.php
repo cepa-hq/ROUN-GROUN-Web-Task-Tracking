@@ -6,7 +6,7 @@ defined('ABSPATH') || exit;
  * to retain its editor/analytics dependencies and localized configuration.
  */
 final class RGCM_Clarity {
-    const VERSION = '1.1.0';
+    const VERSION = '1.1.1';
     public static function boot() {
         add_filter('woocommerce_locate_template', array(__CLASS__, 'template'), 4000, 3);
         add_filter('woocommerce_ship_to_different_address_checked', array(__CLASS__, 'shipping_default'), 100);
@@ -34,7 +34,7 @@ final class RGCM_Clarity {
         if (strpos($key, 'shipping_') === 0) return 'Ship to a different address';
         if ($key === 'billing_email' || $key === 'billing_phone') return RGCK_Settings::get('contact_heading');
         if (strpos($key, 'billing_') === 0) return RGCK_Settings::get('address_heading');
-        if (strpos($key, 'account_') === 0) return RGCK_Settings::get('contact_heading');
+        if (strpos($key, 'account_') === 0) return 'Create an account';
         return 'Additional order details';
     }
     public static function field_message($key, $field, $reason, $data = array()) {
