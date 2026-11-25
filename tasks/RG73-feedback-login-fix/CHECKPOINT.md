@@ -1,0 +1,9 @@
+# RG73 — customer login and survey miniheader correction
+
+25 November2026India. Owner authorises staging correction. Root cause: feedback1.0.2 called wp_login_url directly, which opens WordPress login; customer website login uses native Woo My account through existing RGCS/RGA renderers. The native custom form action drops GET parameters, so simply changing the initial redirect would lose the survey destination after a login failure or social callback.
+
+Scope: existing feedback plugin only.1.0.3adds includes/customer-login.php, integrates boot/frontend guest gate, removes miniheader markup from templates/form.php and updates README/tests. No credential handler or account-plugin edits; existing website header, survey data/schema/questions/gift/dashboard logic unchanged. Exact native success hooks and installed Nextend final callback verified in source.
+
+Current state: source ready; PHP lint and8.2parser pass13files;33auth-destination tests +49existing validator/statistics/transaction checks pass. No staging upgrade yet. Release ZIP51540bytes,SHA256a9686b3b8697f115d46cd692d9fc18acc5fd097d98fe53c7362b9db2b7bbc675. Rollback saved1.0.2ZIP remains in original feedback-system folder and priorRG71remote release. Installed1.0.2baseline:1staff-test entry/8answers/1test reward/1audit,formhash70ed7e33247eac17f269dc2fe16f2e6a729ccab3e7f5d32b7ba42ab9136719ec; PHPlog409932bytes,last21Nov15:27:29UTC.
+
+Next: install own1.0.3ZIP force=true preserving active state; verify guest→website Myaccount sign-in, native return hidden fields/cookie flags/order/campaign/error continuity, ordinary sign-in unchanged; inspect signed-in survey (nativeheader only) and actual phone/tablet/desktop; verify data/log unchanged. Persist final source/release/report in task branch and PR. Never submit real credentials, create accounts or edit customers/orders/data for QA.
