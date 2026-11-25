@@ -111,10 +111,16 @@ final class Customer_Login {
         if(!is_user_logged_in())self::remember($target);
     }
     public static function begin(string $target):void {
-        $target=self::destination($target);$account=self::account();
-        if(!$target||!$account)wp_die('Customer sign-in is unavailable. Please try again later.','Sign-in unavailable',['response'=>503]);
+        $target=self::destination($target);$login=self::login_url($target);
+        if(!$target||!$login)wp_die('Customer sign-in is unavailable. Please try again later.','Sign-in unavailable',['response'=>503]);
         self::remember($target);
-        wp_safe_redirect(add_query_arg('rgfs_return',$target,$account));exit;
+        wp_safe_redirect($login);exit;
+    }
+    public static function login_url(string $target):string {
+        $target=self::destination($target);$account=self::account();
+        // add_query_arg expects NEW values to be URL-encoded. A nested survey
+        // query must not become outer login parameters and lose its campaign.
+        return $target&&$account?add_query_arg('rgfs_return',rawurlencode($target),$account):'';
     }
     public static function fields():void {
         $target=self::pending();if(!$target)return;

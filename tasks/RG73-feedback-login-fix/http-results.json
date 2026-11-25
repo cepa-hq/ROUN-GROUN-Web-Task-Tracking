@@ -1,0 +1,40 @@
+[
+  {
+    "test": "guest survey uses customer login",
+    "final_url": "https://testarea.roungroun.com/my-account/?rgfs_return=https%3A%2F%2Ftestarea.roungroun.com%2Ffeedback%2Fgeneral-feedback-mk1%2F",
+    "customer_form": true,
+    "wordpress_login_form": false,
+    "return_matches": true,
+    "native_redirect_matches": true,
+    "native_nonce_present": true,
+    "cache": "no-cache, must-revalidate, max-age=0, no-store, private"
+  },
+  {
+    "test": "return cookie flags",
+    "secure": true,
+    "httponly": true,
+    "samesite": "Lax",
+    "expires_set": true
+  },
+  {
+    "test": "empty username native validation",
+    "remains_customer_login": true,
+    "username_required": true,
+    "return_preserved": true,
+    "credentials_tested": false
+  },
+  {
+    "test": "order campaign context",
+    "final_path": "/my-account/",
+    "return_matches": true
+  },
+  {
+    "test": "ordinary login unchanged",
+    "survey_return_fields": 0
+  },
+  {
+    "test": "external return ignored",
+    "survey_return_fields": 0,
+    "return_cookie_created": false
+  }
+]

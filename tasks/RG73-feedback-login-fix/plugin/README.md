@@ -1,4 +1,4 @@
-# Roun Groun Feedback system 1.0.3 — RG71 / RG73
+# Roun Groun Feedback system 1.0.4 — RG71 / RG73
 
 First-party WordPress plugin for the approved General feedback mk1 instrument. No SaaS feedback service, external font, chart library or frontend build is required. The existing Roun Groun native header remains the header owner. Only this plugin's CSS and JavaScript are added on survey/dashboard routes.
 
@@ -48,7 +48,7 @@ Run `php tests/unit.php` and `php tests/transactions.php` for real validator/Wil
 
 ## RG73 customer login correction
 
-The original1.0.2guest gate incorrectly used `wp_login_url`, showing the WordPress/admin-style login.1.0.3uses the existing WooCommerce My account customer page and its existing native sign-in/register forms, including the existing Google sign-in integration. No credential handler is added or replaced. The duplicate survey brand/time miniheader was removed from `templates/form.php`; the main native website header remains.
+The original1.0.2guest gate incorrectly used `wp_login_url`, showing the WordPress/admin-style login.1.0.4uses the existing WooCommerce My account customer page and its existing native sign-in/register forms, including the existing Google sign-in integration. No credential handler is added or replaced. The duplicate survey brand/time miniheader was removed from `templates/form.php`; the main native website header remains.
 
 `includes/customer-login.php` owns only return-address transport. Only registered, same-origin survey paths are accepted; query context is reduced to bounded order ID and campaign. A30minute signed Secure/HttpOnly/SameSite=Lax first-party cookie plus native form hidden fields preserves the destination through failed sign-in, registration and the existing Nextend final return hook. The cookie contains no credentials, account ID or answers, and is cleared when consumed. Native Woo success filters run only after native authentication/registration succeeds. Explicit unrelated social/admin destinations and ordinary website sign-in remain unchanged. Pending cookies are not injected into unrelated-page login dialogs. Account-page refresh after successful social/customer login resumes the survey. The survey's existing current-user/order ownership/CSRF checks remain authoritative after authentication.
 

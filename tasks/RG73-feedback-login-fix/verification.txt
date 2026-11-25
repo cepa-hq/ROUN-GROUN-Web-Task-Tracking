@@ -1,3 +1,16 @@
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/roun-groun-feedback-system.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/admin.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/customer-login.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/frontend.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/analytics.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/forms.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/store.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/privacy.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/templates/page.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/templates/form.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/tests/customer-login.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/tests/transactions.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/tests/unit.php
 PASS complete valid response
 PASS missing required rejected
 PASS unknown option rejected
@@ -51,8 +64,8 @@ PASS retry inserts no response/answers/reward
 19 transaction checks passed
 PASS recognised survey accepted
 PASS only bounded order/campaign fields retained
-PASS unsafe/unknown destination rejected 2
-PASS unsafe/unknown destination rejected 3
+PASS nested survey order/campaign URL roundtrips through customer login
+PASS survey query does not escape to outer login query
 PASS unsafe/unknown destination rejected 4
 PASS unsafe/unknown destination rejected 5
 PASS unsafe/unknown destination rejected 6
@@ -63,6 +76,8 @@ PASS unsafe/unknown destination rejected 10
 PASS unsafe/unknown destination rejected 11
 PASS unsafe/unknown destination rejected 12
 PASS unsafe/unknown destination rejected 13
+PASS unsafe/unknown destination rejected 14
+PASS unsafe/unknown destination rejected 15
 PASS signed return accepted
 PASS tampered signature rejected
 PASS expired context rejected
@@ -82,4 +97,4 @@ PASS plain permalink installation supported
 PASS subdirectory installation preserves destination
 PASS native success hooks registered
 PASS no credential/authentication or global WP redirect override
-33 customer login checks passed
+35 customer login checks passed
