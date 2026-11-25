@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Roun Groun Feedback system
  * Description: First-party, account-linked surveys, question analytics and surprise delivery gift fulfilment.
- * Version: 1.0.5
+ * Version: 1.0.6
  * Author: Roun Groun
  * Requires at least: 6.5
  * Requires PHP: 8.0
@@ -10,7 +10,7 @@
  */
 namespace RGFS;
 defined('ABSPATH') || exit;
-const VERSION = '1.0.5';
+const VERSION = '1.0.6';
 const ROOT = __DIR__;
 const FILE = __FILE__;
 foreach (['forms','store','analytics','customer-login','frontend','admin','privacy'] as $part) { require_once ROOT.'/includes/'.$part.'.php'; }

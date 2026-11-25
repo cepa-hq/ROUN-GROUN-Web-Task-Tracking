@@ -61,9 +61,20 @@ function syncHeaderClearance(){
  const adminHeight=admin?admin.getBoundingClientRect().height:0;
  feedbackRoot.style.setProperty('--feedback-clearance',Math.ceil(Math.max(headerHeight,fallback)+adminHeight+18)+'px');
 }
+// The question stack defines sticky travel. Receipt/submit/privacy/footer height
+// never extends it. ResizeObserver covers conditional questions and font reflow.
+const boundary=document.querySelector('.tracker-boundary');
+function syncQuestionBoundary(){
+ const questionsBottom=root.getBoundingClientRect().bottom;
+ const start=document.querySelector('.survey-layout').getBoundingClientRect().top;
+ boundary.style.setProperty('--question-boundary',Math.max(0,Math.ceil(questionsBottom-start))+'px');
+}
+syncQuestionBoundary();window.addEventListener('resize',syncQuestionBoundary,{passive:true});
+if('ResizeObserver' in window){new ResizeObserver(syncQuestionBoundary).observe(root);}
+if(document.fonts?.ready)document.fonts.ready.then(syncQuestionBoundary);
 syncHeaderClearance();window.addEventListener('resize',syncHeaderClearance,{passive:true});
 if('ResizeObserver' in window){const headerObserver=new ResizeObserver(syncHeaderClearance);for(const selector of ['#rghc-header','#wpadminbar']){const el=document.querySelector(selector);if(el)headerObserver.observe(el);}}
-if('IntersectionObserver' in window){const railObserver=new IntersectionObserver(entries=>{tracker.classList.toggle('in-survey',entries[0].isIntersecting);},{rootMargin:'-100px 0px -24px 0px'});railObserver.observe(document.querySelector('.survey-layout'));}else tracker.classList.add('in-survey');
+if('IntersectionObserver' in window){const railObserver=new IntersectionObserver(entries=>{tracker.classList.toggle('in-survey',entries[0].isIntersecting);},{rootMargin:'-100px 0px -24px 0px'});railObserver.observe(root);}else tracker.classList.add('in-survey');
 
 
 if(RGFS.existing){

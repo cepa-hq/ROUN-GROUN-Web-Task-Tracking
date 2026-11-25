@@ -85,3 +85,7 @@
 
 
 body.rgfs-page{margin:0;background:#fff9ee}.rg-feedback{min-height:70vh}.rg-feedback .send:disabled{opacity:.65;cursor:wait}.rg-feedback .session-error{color:#9b2d30}.rg-feedback .account strong{overflow-wrap:anywhere}.rg-feedback .account p{overflow-wrap:anywhere}
+
+/* Bound native desktop sticky travel to the question stack, excluding receipt. */
+@media(min-width:901px){.rg-feedback .tracker-boundary{height:var(--question-boundary,auto);align-self:start;min-width:0}}
+@media(max-width:900px){.rg-feedback .tracker-boundary{display:contents}}
