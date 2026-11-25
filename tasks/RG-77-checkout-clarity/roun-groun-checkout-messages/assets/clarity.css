@@ -1,0 +1,14 @@
+/* RG-77: two compact sections; existing font/colours, no animation or new images. */
+.rgck-page .rgck-shipping-address:has(.rgcm-delivery-section),.rgck-page .rgck-shipping-address:has(.rgcm-order-details){padding:0;border:0;background:transparent;box-shadow:none;margin-top:0}
+.rgck-page .rgcm-delivery-section,.rgck-page .rgcm-order-details{margin-top:22px}
+.rgck-page .rgcm-address-hint{margin:0 0 14px;font-size:13px;line-height:1.6;color:var(--rgck-ink)}
+.rgck-page #ship-to-different-address .rgcm-address-choice{display:flex;align-items:flex-start;gap:12px;padding:16px;border:1px solid var(--rgck-accent);border-radius:10px;background:var(--rgck-bg);cursor:pointer;min-height:48px;margin:0}
+.rgck-page .rgcm-address-choice input{appearance:auto;flex:0 0 20px;width:20px;height:20px;margin:1px 0 0;accent-color:var(--rgck-accent)}
+.rgck-page .rgcm-address-choice span{font-size:14px;font-weight:600;line-height:1.45;color:var(--rgck-ink)}
+.rgck-page .rgcm-address-choice small{display:block;margin-top:4px;font-size:12px;font-weight:400;line-height:1.5}
+.rgck-page .rgcm-address-choice:has(input:focus-visible){outline:2px solid var(--rgck-accent);outline-offset:3px}
+.rgck-page .rgcm-address-choice:has(input:checked){box-shadow:inset 0 0 0 1px var(--rgck-accent)}
+.rgck-page .rgcm-order-details:not(:has(.form-row)):not(:has(input)):not(:has(textarea)):not(:has(select)){display:none}
+.rgck-page .rgck-error-box a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.rgck-page .rgck-field-error{display:block;clear:both;line-height:1.5;overflow-wrap:anywhere}
+@media(max-width:760px){.rgck-page #ship-to-different-address .rgcm-address-choice{padding:14px;gap:10px}.rgck-page .rgcm-address-choice span{font-size:14px}.rgck-page .rgcm-address-choice small{font-size:12px}}
