@@ -1,0 +1,3 @@
+# Footer follow-up — 25 November 2026
+
+Owner requested removal of duplicate survey footer. Staging release1.0.5 removes only templates/form.php footer.footer containing roun groun / Thank you for your time. Bootstrap version bumped. Main native website footer unchanged. PHP template lint passed; actual browser confirms duplicate footer count0, thank-you line absent, native Roun Groun footer present. Diagnostics unchanged:1staff-test entry/8answers/1test reward/1audit. No auth/schema/instrument/customer/order changes. Release ZIP51625bytes SHA256908f8ba985d74f85b2a6434ad19f4181c35fd5d77f77b146616af4a4f0d44e10. Rollback prior1.0.4ZIP retained.

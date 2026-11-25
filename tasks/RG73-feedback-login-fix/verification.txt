@@ -1,0 +1,100 @@
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/roun-groun-feedback-system.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/admin.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/customer-login.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/frontend.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/analytics.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/forms.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/store.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/includes/privacy.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/templates/page.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/templates/form.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/tests/customer-login.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/tests/transactions.php
+No syntax errors detected in feedback-login-fix/plugin/roun-groun-feedback-system/tests/unit.php
+PASS complete valid response
+PASS missing required rejected
+PASS unknown option rejected
+PASS duplicate option rejected
+PASS multiple radio choices rejected
+PASS exclusive answer rejected with another
+PASS selection maximum enforced
+PASS hidden checkout branch rejected
+PASS visible optional checkout branch accepted
+PASS unknown answer field rejected
+PASS numeric coercion rejected
+PASS zero-denominator no invented percentage
+PASS Wilson reference 5 of10
+PASS Wilson zero positive boundary
+PASS Wilson all positive boundary
+PASS Wilson bounds n1 yes0
+PASS Wilson bounds n1 yes0
+PASS Wilson bounds n1 yes1
+PASS Wilson bounds n2 yes0
+PASS Wilson bounds n2 yes1
+PASS Wilson bounds n2 yes2
+PASS Wilson bounds n10 yes0
+PASS Wilson bounds n10 yes5
+PASS Wilson bounds n10 yes10
+PASS Wilson bounds n100 yes0
+PASS Wilson bounds n100 yes50
+PASS Wilson bounds n100 yes100
+PASS Wilson bounds n10000 yes0
+PASS Wilson bounds n10000 yes5000
+PASS Wilson bounds n10000 yes10000
+30 checks passed
+PASS failure 1 returned error
+PASS failure 1 left no partial response/reward
+PASS failure 1 rolled back
+PASS failure 2 returned error
+PASS failure 2 left no partial response/reward
+PASS failure 2 rolled back
+PASS failure 3 returned error
+PASS failure 3 left no partial response/reward
+PASS failure 3 rolled back
+PASS failure 4 returned error
+PASS failure 4 left no partial response/reward
+PASS failure 4 rolled back
+PASS failure 5 returned error
+PASS failure 5 left no partial response/reward
+PASS failure 5 rolled back
+PASS successful transaction returns durable entry ID
+PASS exactly one reward row
+PASS retry recovers same response
+PASS retry inserts no response/answers/reward
+19 transaction checks passed
+PASS recognised survey accepted
+PASS only bounded order/campaign fields retained
+PASS nested survey order/campaign URL roundtrips through customer login
+PASS survey query does not escape to outer login query
+PASS unsafe/unknown destination rejected 4
+PASS unsafe/unknown destination rejected 5
+PASS unsafe/unknown destination rejected 6
+PASS unsafe/unknown destination rejected 7
+PASS unsafe/unknown destination rejected 8
+PASS unsafe/unknown destination rejected 9
+PASS unsafe/unknown destination rejected 10
+PASS unsafe/unknown destination rejected 11
+PASS unsafe/unknown destination rejected 12
+PASS unsafe/unknown destination rejected 13
+PASS unsafe/unknown destination rejected 14
+PASS unsafe/unknown destination rejected 15
+PASS signed return accepted
+PASS tampered signature rejected
+PASS expired context rejected
+PASS overlong expiry rejected
+PASS account login retains signed pending survey
+PASS unrelated page does not inherit survey login
+PASS native customer form receives return fields
+PASS failed authentication keeps native destination
+PASS successful native login resumes survey
+PASS consumed cookie cleared
+PASS ordinary login untouched
+PASS successful registration return preserved
+PASS failed social authentication never resumes survey
+PASS explicit admin social destination untouched
+PASS successful customer social callback resumes survey
+PASS plain permalink installation supported
+PASS subdirectory installation preserves destination
+PASS native success hooks registered
+PASS no credential/authentication or global WP redirect override
+35 customer login checks passed
