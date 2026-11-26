@@ -1,0 +1,1024 @@
+{
+  "requested_urls": 39,
+  "production_sitemap_targets": 17,
+  "total_checks": 203,
+  "passed": 203,
+  "failed": [],
+  "checks": [
+    {
+      "check": "https://roungroun.com sitemap targets count",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "check": "https://roungroun.com/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/about-roun-groun/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/contact/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/privacy-policy/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/camping-outdoor-equipments-essentials/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/gym-tools-equipments/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/home-gym-essentials/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ one Product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ Roun Groun brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ positive INR offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-drop-set-pin-steel-construction/ correct offer URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ one Product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ Roun Groun brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ positive INR offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-latex-resistance-bands-set-of-5-5-levels-of-resistance-colour-coded-exercise-bands-thera-bands-strength-training-and-rehabilitation/ correct offer URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ one Product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ Roun Groun brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ positive INR offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-liquid-chalk-instant-grip-strength-for-hiit-calisthenics-strength-training-more-fast-drying-pure-magnesium-carbonate-for-pull-up-bars-wall-pilates-gymnastics-exercise-ma/ correct offer URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ one Product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ Roun Groun brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ positive INR offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-portable-camping-stove-butane-gas-military-grade-adjustable-flame-safest-design-emergency-prep-built-in-piezo-ignition-all-weather-with-travel-bag/ correct offer URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ one Product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ Roun Groun brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ positive INR offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-safety-whistle-titanium-100-db-pea-less-design-red-reflective-lanyard-light-weight-uni-tone-100-waterproof-dust-proof-rust-corrosion-proof/ correct offer URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ one Product",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ Roun Groun brand",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ positive INR offer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product/roun-groun-semi-transparent-pvc-tote-beach-bag-unisex-waterproof-sand-proof-washable-stylish-shopping-movie-theatre-stadium-approved-stylish-canvas-bag-reusable-eco-friendly/ correct offer URL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/refund-returns/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shipping-policy/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ HTTP200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ one title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ one description",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ self canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ index meta",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ JSON-LD parses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ no fatal text",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/terms-and-conditions/ alt attributes present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/cart/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/cart/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/checkout/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/checkout/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/my-account/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/my-account/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wishlist/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wishlist/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/cancellation-request/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/cancellation-request/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/return-request/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/return-request/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/?s=chalk noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/?s=chalk excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/uncategorized/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/product-category/uncategorized/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/brand/roun-groun/ noindex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/brand/roun-groun/ excluded from sitemap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/cart/ private/no-cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/checkout/ private/no-cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/my-account/ private/no-cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wishlist/ private/no-cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/cancellation-request/ private/no-cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/return-request/ private/no-cache",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com About301",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com unknown404",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/?orderby=price shop canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/shop/?min_price=100&max_price=2000 shop canonical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com verification tag retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com tracking identifiers retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com homepage no Article schema",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png icon200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png icon dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-32x32.png transparent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png icon200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png icon dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-192x192.png transparent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png icon200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png icon dimensions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "https://roungroun.com/wp-content/uploads/2026/11/cropped-roun-groun-rg-favicon-115-master-180x180.png transparent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "production has zero staging-host references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "production root crawl allowed",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}
